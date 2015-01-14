@@ -1,4 +1,14 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
+    <ReferenceAssembly PathName="c:\users\dylan_000\documents\visual studio 2013\projects\roosterteethinfinity\packages\google.apis.auth.1.9.0\lib\portable-net40+sl50+win+wpa81+wp80\google.apis.auth.dll" HashGuid="04c9bafe-dbbf-bf32-cd3f-4d572f37e3c1" />
+    <ReferenceAssembly PathName="c:\users\dylan_000\documents\visual studio 2013\projects\roosterteethinfinity\packages\google.apis.core.1.9.0\lib\portable-net40+sl50+win+wpa81+wp80\google.apis.core.dll" HashGuid="f5555c07-bb80-6148-3ac1-34df2e0bee65" />
+    <ReferenceAssembly PathName="c:\users\dylan_000\documents\visual studio 2013\projects\roosterteethinfinity\packages\google.apis.1.9.0\lib\portable-net40+sl50+win+wpa81+wp80\google.apis.dll" HashGuid="eee5f1a0-473f-ecd5-d165-8d1d5fa2631a" />
+    <ReferenceAssembly PathName="c:\users\dylan_000\documents\visual studio 2013\projects\roosterteethinfinity\packages\google.apis.youtube.v3.1.9.0.1250\lib\portable-net40+sl50+win+wpa81+wp80\google.apis.youtube.v3.dll" HashGuid="801cb5ef-5f5d-53d2-afc7-54b055846d81" />
+    <ReferenceAssembly PathName="c:\users\dylan_000\documents\visual studio 2013\projects\roosterteethinfinity\packages\microsoft.bcl.async.1.0.168\lib\wpa81\microsoft.threading.tasks.dll" HashGuid="3a1beea5-1547-d5c6-af32-3b5c761c2a6a" />
+    <ReferenceAssembly PathName="c:\users\dylan_000\documents\visual studio 2013\projects\roosterteethinfinity\packages\microsoft.bcl.async.1.0.168\lib\wpa81\microsoft.threading.tasks.extensions.dll" HashGuid="79a01987-c06c-c9d7-37eb-629809787680" />
+    <ReferenceAssembly PathName="c:\users\dylan_000\documents\visual studio 2013\projects\roosterteethinfinity\packages\newtonsoft.json.6.0.4\lib\portable-net45+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="02b12ba6-881e-6b8a-1687-5b2ee1851a11" />
+    <ReferenceAssembly PathName="c:\users\dylan_000\documents\visual studio 2013\projects\roosterteethinfinity\packages\microsoft.net.http.2.2.22\lib\wpa81\system.net.http.extensions.dll" HashGuid="1d9d21be-6daa-468f-1b93-4e738d786e1b" />
+    <ReferenceAssembly PathName="c:\users\dylan_000\documents\visual studio 2013\projects\roosterteethinfinity\packages\microsoft.net.http.2.2.22\lib\wpa81\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+    <ReferenceAssembly PathName="c:\users\dylan_000\documents\visual studio 2013\projects\roosterteethinfinity\packages\zlib.portable.1.10.0\lib\portable-net4+sl5+wp8+win8+wpa81+monotouch+monoandroid\zlib.portable.dll" HashGuid="c2e720fb-e50f-2f36-7080-d54c89253f2a" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>
