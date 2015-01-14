@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DYLANS_PC</Machine>
+    <WindowsUser>dylan_000</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>21174da3-160b-4dc5-bd7a-9182cd3c4e3e</PackageIdentityName>
+    <IntermediateOutputPath>c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>F042ACD6C94B4F9F7348882DE412BF0470712511AC5F03F90DB265A98565FEA4</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>21174da3-160b-4dc5-bd7a-9182cd3c4e3e_1.0.0.0_neutral__6eq6n5nz7n9s4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>21174da3-160b-4dc5-bd7a-9182cd3c4e3e_6eq6n5nz7n9s4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>21174da3-160b-4dc5-bd7a-9182cd3c4e3e</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=dylan_000</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-01-14T03:28:58.604</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\RoosterTeethInfinity.Windows.exe">
+      <PackagePath>RoosterTeethInfinity.Windows.exe</PackagePath>
+      <Modified>2015-01-14T03:28:57.049</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\Google.Apis.Auth.1.9.0\lib\netcore45\Google.Apis.Auth.dll">
+      <PackagePath>Google.Apis.Auth.dll</PackagePath>
+      <Modified>2015-01-14T03:23:01.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\Google.Apis.Auth.1.9.0\lib\netcore45\Google.Apis.Auth.PlatformServices.dll">
+      <PackagePath>Google.Apis.Auth.PlatformServices.dll</PackagePath>
+      <Modified>2015-01-14T03:23:01.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\Google.Apis.Core.1.9.0\lib\portable-net40+sl50+win+wpa81+wp80\Google.Apis.Core.dll">
+      <PackagePath>Google.Apis.Core.dll</PackagePath>
+      <Modified>2015-01-14T03:23:00.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\Google.Apis.1.9.0\lib\netcore45\Google.Apis.dll">
+      <PackagePath>Google.Apis.dll</PackagePath>
+      <Modified>2015-01-14T03:23:01.147</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\Google.Apis.1.9.0\lib\netcore45\Google.Apis.PlatformServices.dll">
+      <PackagePath>Google.Apis.PlatformServices.dll</PackagePath>
+      <Modified>2015-01-14T03:23:01.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\Google.Apis.YouTube.v3.1.9.0.1250\lib\portable-net40+sl50+win+wpa81+wp80\Google.Apis.YouTube.v3.dll">
+      <PackagePath>Google.Apis.YouTube.v3.dll</PackagePath>
+      <Modified>2015-01-14T03:23:01.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\Microsoft.Bcl.Async.1.0.168\lib\win8\Microsoft.Threading.Tasks.dll">
+      <PackagePath>Microsoft.Threading.Tasks.dll</PackagePath>
+      <Modified>2015-01-14T03:22:58.888</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\Microsoft.Bcl.Async.1.0.168\lib\win8\Microsoft.Threading.Tasks.Extensions.dll">
+      <PackagePath>Microsoft.Threading.Tasks.Extensions.dll</PackagePath>
+      <Modified>2015-01-14T03:22:58.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\Newtonsoft.Json.6.0.4\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2015-01-14T03:23:00.464</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\Microsoft.Net.Http.2.2.22\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+      <Modified>2015-01-14T03:23:00.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\Microsoft.Net.Http.2.2.22\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+      <Modified>2015-01-14T03:23:00.040</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\Zlib.Portable.1.10.0\lib\portable-net4+sl5+wp8+win8+wpa81+MonoTouch+MonoAndroid\Zlib.Portable.dll">
+      <PackagePath>Zlib.Portable.dll</PackagePath>
+      <Modified>2015-01-14T03:23:01.025</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T16:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T16:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T16:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T16:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <Modified>2014-03-14T16:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Shared\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2014-03-14T16:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Shared\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2014-03-14T16:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Shared\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2014-03-14T16:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Shared\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+      <Modified>2015-01-14T03:17:39.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-01-14T03:28:56.586</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+      <Modified>2015-01-14T03:28:56.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+      <Modified>2015-01-14T03:28:56.605</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+      <Modified>2015-01-14T03:28:56.614</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\RoosterTeethInfinity.Windows.xr.xml">
+      <PackagePath>RoosterTeethInfinity.Windows.xr.xml</PackagePath>
+      <Modified>2015-01-14T03:28:56.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-01-14T03:28:58.033</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

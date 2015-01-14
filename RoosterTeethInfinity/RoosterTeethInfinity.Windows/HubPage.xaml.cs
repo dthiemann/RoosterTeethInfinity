@@ -15,6 +15,14 @@ using Windows.UI.Xaml.Navigation;
 using RoosterTeethInfinity.Data;
 using RoosterTeethInfinity.Common;
 
+// References to Google API
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.Upload;
+using Google.Apis.Services;
+using Google.Apis.Util.Store;
+using Google.Apis.YouTube.v3;
+using Google.Apis.YouTube.v3.Data;
+
 // The Universal Hub Application project template is documented at http://go.microsoft.com/fwlink/?LinkID=391955
 
 namespace RoosterTeethInfinity
