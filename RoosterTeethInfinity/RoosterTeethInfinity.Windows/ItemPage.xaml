@@ -32,7 +32,13 @@
             TODO: Content should be placed within the following grid 
                   to show details for the current item
         -->
-        <Grid Grid.Row="1" x:Name="contentRegion"/>
+        <Grid Grid.Row="1" x:Name="contentRegion">
+            <MediaElement HorizontalAlignment="Left"
+                          Height="100"
+                          Margin="326,176,0,0"
+                          VerticalAlignment="Top"
+                          Width="100" />
+        </Grid>
 
         <!-- Back button and page title -->
         <Grid>
