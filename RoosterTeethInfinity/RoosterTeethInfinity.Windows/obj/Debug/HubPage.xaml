@@ -106,7 +106,7 @@
             <HubSection x:Name="RoosterTeethHubSection" IsHeaderInteractive="True"  d:DataContext="{Binding Groups[3], Source={d:DesignData Source=../RoosterTeethInfinity.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"
                         x:Uid="Section3Header" Header="Rooster Teeth" Padding="40,40,40,32">
                 <DataTemplate>
-                    <GridView x:ConnectionId='2'
+                    <GridView x:ConnectionId='3'
                         x:Name="itemGridView"
                         ItemsSource="{Binding}"
                         Margin="-9,-14,0,0"
@@ -121,37 +121,29 @@
                     </GridView>
                 </DataTemplate>
             </HubSection>
-            
-            <HubSection x:Uid="Section4Header" Header="Section 4">
+
+            <HubSection x:Name="LetsPlayHubSection"
+                        IsHeaderInteractive="True"
+                        d:DataContext="{Binding Groups[3], Source={d:DesignData Source=../RoosterTeethInfinity.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"
+                        x:Uid="Section3Header"
+                        Header="Let's Play"
+                        Padding="40,40,40,32">
                 <DataTemplate>
-                    <!-- width of 400 -->
-                    <StackPanel Orientation="Vertical">
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="130"/>
-                                <ColumnDefinition Width="5"/>
-                                <ColumnDefinition Width="130"/>
-                                <ColumnDefinition Width="5"/>
-                                <ColumnDefinition Width="130"/>
-                            </Grid.ColumnDefinitions>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="270"/>
-                                <RowDefinition Height="95"/>
-                                <RowDefinition Height="Auto" />
-                                <RowDefinition Height="*" />
-                            </Grid.RowDefinitions>
-                            <Image Source="Assets/MediumGray.png" Grid.ColumnSpan="5" Margin="0,0,0,10" Stretch="Fill" />
-                            <Image Source="Assets/MediumGray.png" Grid.Row="1" Stretch="Fill"/>
-                            <Image Source="Assets/MediumGray.png" Grid.Row="1" Grid.Column="2" Stretch="Fill"/>
-                            <Image Source="Assets/MediumGray.png" Grid.Row="1" Grid.Column="4" Stretch="Fill"/>
-                            <TextBlock Style="{StaticResource TitleTextBlockStyle}" Grid.Row="2" Grid.ColumnSpan="5"  Margin="0,15,0,0"
-                                       x:Uid="DescriptionHeader" Text="Description text:"/>
-                            <TextBlock Style="{StaticResource BodyTextBlockStyle}" Grid.Row="3" Grid.ColumnSpan="5"
-                                       x:Uid="LongText" Text="Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper. Lorem ipsum dolor sit amet, consectetuer ising elit, sed diam nonummy nibh uismod tincidunt ut laoreet suscipit lobortis ni ut wisi quipexerci quis consequat minim veniam, quis nostrud exerci tation ullam corper."/>
-                        </Grid>
-                    </StackPanel>
+                    <GridView x:ConnectionId='2' x:Name="itemGridView"
+                              ItemsSource="{Binding}"
+                              Margin="-9,-14,0,0"
+                              AutomationProperties.AutomationId="ItemGridView"
+                              AutomationProperties.Name="Items In Group"
+                              ItemTemplate="{StaticResource VideoDataTemplate}"
+                              SelectionMode="None"
+                              IsSwipeEnabled="false"
+                              IsItemClickEnabled="True"
+                                                            >
+
+                    </GridView>
                 </DataTemplate>
             </HubSection>
+
         </Hub>
     </Grid>
 </Page>

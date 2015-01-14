@@ -130,12 +130,17 @@ namespace RoosterTeethInfinity
  
                     //Channel Videos 
  
-                    //Here is the name of the Channel 
+                    /* Rooster Teeth */ 
                     string YoutubeChannel = "RoosterTeeth"; 
-                    var channelVideos = await GetYoutubeChannel("http://gdata.youtube.com/feeds/base/users/" + YoutubeChannel + "/uploads?alt=rss&v=2&orderby=published&start-index=" + index + "&max-results=" + max_results); 
-                    RoosterTeethHubSection.DataContext = channelVideos;
+                    var rt_videos = await GetYoutubeChannel("http://gdata.youtube.com/feeds/base/users/" + YoutubeChannel + "/uploads?alt=rss&v=2&orderby=published&start-index=" + index + "&max-results=" + max_results); 
+                    RoosterTeethHubSection.DataContext = rt_videos;
                     RoosterTeethHubSection.Header = "Rooster Teeth"; 
 
+                    /* Achievement Hunter */
+                    YoutubeChannel = "LetsPlay";
+                    var lp_videos = await GetYoutubeChannel("http://gdata.youtube.com/feeds/base/users/" + YoutubeChannel + "/uploads?alt=rss&v=2&orderby=published&start-index=" + index + "&max-results=" + max_results);
+                    LetsPlayHubSection.DataContext = lp_videos;
+                    LetsPlayHubSection.Header = "Let's Play";
                 } 
                 else 
                 { 
