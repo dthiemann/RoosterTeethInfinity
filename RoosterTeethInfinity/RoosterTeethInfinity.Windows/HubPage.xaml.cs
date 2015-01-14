@@ -141,6 +141,7 @@ namespace RoosterTeethInfinity
                     var lp_videos = await GetYoutubeChannel("http://gdata.youtube.com/feeds/base/users/" + YoutubeChannel + "/uploads?alt=rss&v=2&orderby=published&start-index=" + index + "&max-results=" + max_results);
                     LetsPlayHubSection.DataContext = lp_videos;
                     LetsPlayHubSection.Header = "Let's Play";
+
                 } 
                 else 
                 { 
@@ -170,6 +171,7 @@ namespace RoosterTeethInfinity
                     video.Id = a.Substring(0, 11);
                     video.Title = item.Title.Text;
                     video.PubDate = item.PublishedDate.DateTime;
+                    video.Summary = item.Summary.Text;
 
                     video.Thumbnail = YouTube.GetThumbnailUri(video.Id, YouTubeThumbnailSize.Small);
 
