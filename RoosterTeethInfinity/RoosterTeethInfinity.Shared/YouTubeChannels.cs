@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 using System.Reflection;
 using System.Threading;
@@ -16,8 +17,8 @@ namespace RoosterTeethInfinity
 {
     class YouTubeChannels
     {
-        public List<string> channels;
-        public List<string> channelTitles;
+        public List<string> Channels;
+        public List<string> ChannelTitles;
             
         [STAThread]
         private async Task Search(string criteria) {
@@ -33,16 +34,16 @@ namespace RoosterTeethInfinity
             //Call the search.list method to retrieve results matching specified query term
             var searchListResponse = await searchListRequest.ExecuteAsync();
 
-            channels = new List<string>();
-            channelTitles = new List<string>();
+            Channels = new List<string>();
+            ChannelTitles = new List<string>();
 
             // Add each result to the appropriate list and then display the list of
             // matching videos, channels, and playlists
             foreach (var searchResult in searchListResponse.Items) {
                 switch (searchResult.Id.Kind) {
                     case "youtube#channel":
-                        channels.Add(searchResult.Id.ChannelId);
-                        channelTitles.Add(searchResult.Snippet.Title);
+                        Channels.Add(searchResult.Id.ChannelId);
+                        ChannelTitles.Add(searchResult.Snippet.Title);
                         //channels.Add(String.Format("{0} ({1})", searchResult.Snippet.Title, searchResult.Id.ChannelId));
                         break;
                 }
@@ -52,8 +53,8 @@ namespace RoosterTeethInfinity
         public string ExecuteSearch(string searchCriteria)
         {
             Search(searchCriteria).Wait();
-
-            string result = channels[0] + " " + channelTitles[0];
+            Debug.WriteLine("We have completed");
+            string result = Channels[0] + " " + ChannelTitles[0];
             return result;
         }
     }

@@ -63,7 +63,7 @@
                 </HubSection.Background>
             </HubSection>
            
-            <HubSection x:Name="RoosterTeethHubSection"  IsHeaderInteractive="True" DataContext="{Binding Section3Items}" d:DataContext="{Binding Groups[3], Source={d:DesignData Source=../RoosterTeethInfinity.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"
+            <HubSection x:Name="RoosterTeeth" IsHeaderInteractive="True" DataContext="{Binding Section3Items}" d:DataContext="{Binding Groups[3], Source={d:DesignData Source=../RoosterTeethInfinity.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"
                         x:Uid="Section3Header" Header="Rooster Teeth" Padding="40,40,40,32">
                 <DataTemplate>
                     <GridView x:ConnectionId='2'
@@ -77,6 +77,7 @@
                         IsSwipeEnabled="false"
                         IsItemClickEnabled="True"
                                                       >
+                        
                     </GridView>
                 </DataTemplate>
             </HubSection>

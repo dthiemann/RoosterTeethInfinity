@@ -62,7 +62,7 @@ namespace RoosterTeethInfinity
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
-            //this.LoadVideos();
+            this.LoadVideos();
         }
 
         /// <summary>
@@ -115,7 +115,7 @@ namespace RoosterTeethInfinity
             YouTubeChannels myChannels = new YouTubeChannels();
             string result = myChannels.ExecuteSearch("Rooster Teeth");
 
-            RoosterTeethHubSection.Header = result;
+            //RoosterTeethHubSection.Header = result;
         }
 
         #region NavigationHelper registration
