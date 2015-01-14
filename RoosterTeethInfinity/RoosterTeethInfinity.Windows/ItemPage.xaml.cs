@@ -16,7 +16,8 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
+using Windows.UI.Xaml.
+Navigation;
 
 // References to Google API
 using Google.Apis.Auth.OAuth2;
@@ -116,5 +117,21 @@ namespace RoosterTeethInfinity
         }
 
         #endregion
+
+        /* Function that will play (and pause) the current video */
+        private void PlayVideo(object sender, RoutedEventArgs e)
+        {
+            var myButton = (Button) sender;
+            if (myButton.Content.Equals("Play"))
+            {
+                PlayerME.Play();
+                myButton.Content = "Pause";
+            }
+            else
+            {
+                PlayerME.Pause();
+                myButton.Content = "Play";
+            }
+        }
     }
 }

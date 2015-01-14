@@ -58,6 +58,7 @@ namespace RoosterTeethInfinity
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
+            this.LoadVideos();
         }
 
         /// <summary>
@@ -102,6 +103,11 @@ namespace RoosterTeethInfinity
             // by passing required information as a navigation parameter
             var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
             this.Frame.Navigate(typeof(ItemPage), itemId);
+        }
+
+        private async void LoadVideos()
+        {
+            
         }
         #region NavigationHelper registration
 
