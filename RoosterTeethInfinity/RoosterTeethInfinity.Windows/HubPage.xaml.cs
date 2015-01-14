@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -15,6 +16,8 @@ using Windows.UI.Xaml.Navigation;
 using MyToolkit.Multimedia;
 using RoosterTeethInfinity.Data;
 using RoosterTeethInfinity.Common;
+
+using System.Threading.Tasks;
 
 // References to Google API
 using Google.Apis.Auth.OAuth2;
@@ -36,6 +39,7 @@ namespace RoosterTeethInfinity
     {
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
+        
 
         /// <summary>
         /// Gets the NavigationHelper used to aid in navigation and process lifetime management.
@@ -58,7 +62,7 @@ namespace RoosterTeethInfinity
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
-            this.LoadVideos();
+            //this.LoadVideos();
         }
 
         /// <summary>
@@ -105,10 +109,15 @@ namespace RoosterTeethInfinity
             this.Frame.Navigate(typeof(ItemPage), itemId);
         }
 
-        private async void LoadVideos()
+        private void LoadVideos()
         {
-            
+            Debug.WriteLine("We are inside this funciton");
+            YouTubeChannels myChannels = new YouTubeChannels();
+            string result = myChannels.ExecuteSearch("Rooster Teeth");
+
+            RoosterTeethHubSection.Header = result;
         }
+
         #region NavigationHelper registration
 
         /// <summary>

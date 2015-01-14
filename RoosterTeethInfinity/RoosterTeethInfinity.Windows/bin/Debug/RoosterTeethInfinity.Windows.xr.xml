@@ -84,7 +84,6 @@
       <RootProperty Name="Source" />
       <RootProperty Name="Stretch" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Width" />
       <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
@@ -119,11 +118,11 @@
     <RootType FullName="Windows.UI.Xaml.Controls.HubSection">
       <RootProperty Name="Width" />
       <RootProperty Name="Background" />
-      <RootProperty Name="Header" />
-      <RootProperty Name="ContentTemplate" />
       <RootProperty Name="IsHeaderInteractive" />
       <RootProperty Name="DataContext" />
+      <RootProperty Name="Header" />
       <RootProperty Name="Padding" />
+      <RootProperty Name="ContentTemplate" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.GridView">
       <RootProperty Name="ItemsSource" />
