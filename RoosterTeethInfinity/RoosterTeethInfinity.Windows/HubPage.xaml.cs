@@ -28,6 +28,10 @@ using Google.Apis.YouTube.v3;
 using Google.Apis.YouTube.v3.Data;
 
 using MyToolkit;
+using MyToolkit.Multimedia;
+using Windows.UI.Popups;
+using Windows.Web.Syndication;
+using System.Net.NetworkInformation;
 // The Universal Hub Application project template is documented at http://go.microsoft.com/fwlink/?LinkID=391955
 
 namespace RoosterTeethInfinity
@@ -109,13 +113,70 @@ namespace RoosterTeethInfinity
             this.Frame.Navigate(typeof(ItemPage), itemId);
         }
 
-        private void LoadVideos()
+        private async void LoadVideos()
         {
-            Debug.WriteLine("We are inside this funciton");
-            YouTubeChannels myChannels = new YouTubeChannels();
-            string result = myChannels.ExecuteSearch("Rooster Teeth");
+            try 
+            { 
+                if (NetworkInterface.GetIsNetworkAvailable()) 
+                { 
+                    //Choose the gap of the videos list 
+                    //Index 
+                    int index = 1; 
+                    //The number of videos you would like to get (from 1 to 50) 
+                    int max_results = 6; 
+ 
+                    //To get more than 50 videos, just use pagination and change the index : 
+                    //int index = 51; 
+ 
+                    //Channel Videos 
+ 
+                    //Here is the name of the Channel 
+                    string YoutubeChannel = "RoosterTeeth"; 
+                    var channelVideos = await GetYoutubeChannel("http://gdata.youtube.com/feeds/base/users/" + YoutubeChannel + "/uploads?alt=rss&v=2&orderby=published&start-index=" + index + "&max-results=" + max_results); 
+                    RoosterTeethHubSection.DataContext = channelVideos;
+                    RoosterTeethHubSection.Header = "Rooster Teeth"; 
 
-            //RoosterTeethHubSection.Header = result;
+                } 
+                else 
+                { 
+                    MessageDialog message = new MessageDialog("You're not connected to Internet!"); 
+                    await message.ShowAsync(); 
+                } 
+            } 
+            catch {  } 
+        } 
+
+        /* Loads up the given YouTube Channel */
+        private async Task<List<YouTubeVideo>> GetYoutubeChannel(string url)
+        {
+            try
+            {
+                SyndicationClient client = new SyndicationClient();
+                SyndicationFeed feed = await client.RetrieveFeedAsync(new Uri(url));
+
+                List<YouTubeVideo> videosList = new List<YouTubeVideo>();
+                YouTubeVideo video;
+                foreach (SyndicationItem item in feed.Items)
+                {
+                    video = new YouTubeVideo();
+
+                    video.YouTubeLink = item.Links[0].Uri;
+                    string a = video.YouTubeLink.ToString().Remove(0, 31);
+                    video.Id = a.Substring(0, 11);
+                    video.Title = item.Title.Text;
+                    video.PubDate = item.PublishedDate.DateTime;
+
+                    video.Thumbnail = YouTube.GetThumbnailUri(video.Id, YouTubeThumbnailSize.Small);
+
+                    videosList.Add(video);
+                }
+
+                return videosList;
+            }
+            catch
+            {
+                return null;
+            }
         }
 
         #region NavigationHelper registration

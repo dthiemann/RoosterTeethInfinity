@@ -7,7 +7,6 @@
     <RootPropertyPathName Name="ImagePath" />
     <RootPropertyPathName Name="NavigationHelper" />
     <RootPropertyPathName Name="GoBackCommand" />
-    <RootPropertyPathName Name="Section3Items" />
     <RootPropertyPathName Name="Items" />
     <RootPropertyPathName Name="Group" />
     <RootPropertyPathName Name="Subtitle" />
@@ -119,7 +118,6 @@
       <RootProperty Name="Width" />
       <RootProperty Name="Background" />
       <RootProperty Name="IsHeaderInteractive" />
-      <RootProperty Name="DataContext" />
       <RootProperty Name="Header" />
       <RootProperty Name="Padding" />
       <RootProperty Name="ContentTemplate" />
