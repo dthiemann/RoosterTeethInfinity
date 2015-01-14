@@ -1,4 +1,5 @@
-﻿using RoosterTeethInfinity.Data;
+﻿using MyToolkit.Multimedia;
+using RoosterTeethInfinity.Data;
 using RoosterTeethInfinity.Common;
 
 using System;
@@ -17,6 +18,16 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
+// References to Google API
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.Upload;
+using Google.Apis.Services;
+using Google.Apis.Util.Store;
+using Google.Apis.YouTube.v3;
+using Google.Apis.YouTube.v3.Data;
+
+using MyToolkit;
+
 // The Universal Hub Application project template is documented at http://go.microsoft.com/fwlink/?LinkID=391955
 
 namespace RoosterTeethInfinity
@@ -34,6 +45,7 @@ namespace RoosterTeethInfinity
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
+            this.PlayVideo();
         }
 
         /// <summary>
@@ -42,6 +54,18 @@ namespace RoosterTeethInfinity
         public NavigationHelper NavigationHelper
         {
             get { return this.navigationHelper; }
+        }
+
+        private async void PlayVideo()
+        {
+            var youtubeId = "djd0BIXJmeg";
+            var url = await YouTube.GetVideoUriAsync(youtubeId, YouTubeQuality.Quality720P);
+
+            if (url != null)
+            {
+                PlayerME.Source = url.Uri;
+                PlayerME.Play();
+            }
         }
 
         /// <summary>

@@ -72,3 +72,9 @@ c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\Ro
 c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\obj\Debug\qualifiers.txt.intermediate
 c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\obj\Debug\ProjectArchitectures.txt
+c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\MyToolkit.dll
+c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\MyToolkit.Extended.dll
+c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\MyToolkit.xml
+c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\MyToolkit.Extended.xml
+c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\MyToolkit.Extended.pri
+c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\obj\Debug\MyToolkit.Extended.pri.xml

@@ -144,6 +144,13 @@
       <RootProperty Name="Value" />
     </RootType>
     <RootType FullName="RoosterTeethInfinity.SectionPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.MediaElement">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+    </RootType>
     <RootType FullName="RoosterTeethInfinity.ItemPage" />
   </Roots.RootTypes>
 </Roots>

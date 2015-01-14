@@ -20,13 +20,13 @@
     <AppXManifest Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-01-14T03:28:58.604</Modified>
+      <Modified>2015-01-14T04:25:25.489</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\RoosterTeethInfinity.Windows.exe">
       <PackagePath>RoosterTeethInfinity.Windows.exe</PackagePath>
-      <Modified>2015-01-14T03:28:57.049</Modified>
+      <Modified>2015-01-14T04:55:35.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\Google.Apis.Auth.1.9.0\lib\netcore45\Google.Apis.Auth.dll">
       <PackagePath>Google.Apis.Auth.dll</PackagePath>
@@ -59,6 +59,14 @@
     <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\Microsoft.Bcl.Async.1.0.168\lib\win8\Microsoft.Threading.Tasks.Extensions.dll">
       <PackagePath>Microsoft.Threading.Tasks.Extensions.dll</PackagePath>
       <Modified>2015-01-14T03:22:58.911</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\MyToolkit.2.3.22.0\lib\portable-net45+wp8+win8+wpa81\MyToolkit.dll">
+      <PackagePath>MyToolkit.dll</PackagePath>
+      <Modified>2015-01-14T03:49:08.727</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\MyToolkit.Extended.2.3.22.0\lib\portable-wpa81+win8\MyToolkit.Extended.dll">
+      <PackagePath>MyToolkit.Extended.dll</PackagePath>
+      <Modified>2015-01-14T03:51:40.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\Newtonsoft.Json.6.0.4\lib\netcore45\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -130,15 +138,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\ItemPage.xbf">
       <PackagePath>ItemPage.xbf</PackagePath>
-      <Modified>2015-01-14T03:28:56.614</Modified>
+      <Modified>2015-01-14T04:55:35.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\RoosterTeethInfinity.Windows.xr.xml">
       <PackagePath>RoosterTeethInfinity.Windows.xr.xml</PackagePath>
-      <Modified>2015-01-14T03:28:56.354</Modified>
+      <Modified>2015-01-14T04:25:24.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\MyToolkit.Extended.2.3.22.0\lib\portable-wpa81+win8\MyToolkit.Extended\MyToolkit.Extended.xr.xml">
+      <PackagePath>MyToolkit.Extended\MyToolkit.Extended.xr.xml</PackagePath>
+      <Modified>2015-01-14T03:51:40.307</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\MyToolkit.Extended.2.3.22.0\lib\portable-wpa81+win8\MyToolkit.Extended\Controls\DatePicker.xbf">
+      <PackagePath>MyToolkit.Extended\Controls\DatePicker.xbf</PackagePath>
+      <Modified>2015-01-14T03:51:40.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\MyToolkit.Extended.2.3.22.0\lib\portable-wpa81+win8\MyToolkit.Extended\Controls\TimePicker.xbf">
+      <PackagePath>MyToolkit.Extended\Controls\TimePicker.xbf</PackagePath>
+      <Modified>2015-01-14T03:51:40.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\MyToolkit.Extended.2.3.22.0\lib\portable-wpa81+win8\MyToolkit.Extended\Themes\generic.xbf">
+      <PackagePath>MyToolkit.Extended\Themes\generic.xbf</PackagePath>
+      <Modified>2015-01-14T03:51:40.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\packages\MyToolkit.Extended.2.3.22.0\lib\portable-wpa81+win8\MyToolkit.Extended\UI\Popups\ListPickerBox.xbf">
+      <PackagePath>MyToolkit.Extended\UI\Popups\ListPickerBox.xbf</PackagePath>
+      <Modified>2015-01-14T03:51:40.323</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\dylan_000\documents\visual studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-01-14T03:28:58.033</Modified>
+      <Modified>2015-01-14T04:25:25.177</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
