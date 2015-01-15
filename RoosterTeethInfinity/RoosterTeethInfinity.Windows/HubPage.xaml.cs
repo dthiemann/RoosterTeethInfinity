@@ -43,7 +43,11 @@ namespace RoosterTeethInfinity
     {
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
-        
+
+        private YouTubeNavHelper rt_url;
+        private YouTubeNavHelper lp_url;
+        private YouTubeNavHelper tk_url;
+        private YouTubeNavHelper cl_url;
 
         /// <summary>
         /// Gets the NavigationHelper used to aid in navigation and process lifetime management.
