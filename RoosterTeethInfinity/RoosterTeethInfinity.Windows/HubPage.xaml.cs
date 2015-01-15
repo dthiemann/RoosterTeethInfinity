@@ -115,6 +115,7 @@ namespace RoosterTeethInfinity
 
         private async void LoadVideos()
         {
+            pageTitle.Text = "Rooster Teeth Inifinty";
             try 
             { 
                 if (NetworkInterface.GetIsNetworkAvailable()) 
@@ -171,9 +172,8 @@ namespace RoosterTeethInfinity
                     video.Id = a.Substring(0, 11);
                     video.Title = item.Title.Text;
                     video.PubDate = item.PublishedDate.DateTime;
-                    video.Summary = item.Summary.Text;
 
-                    video.Thumbnail = YouTube.GetThumbnailUri(video.Id, YouTubeThumbnailSize.Small);
+                    video.Thumbnail = YouTube.GetThumbnailUri(video.Id, YouTubeThumbnailSize.Large);
 
                     videosList.Add(video);
                 }

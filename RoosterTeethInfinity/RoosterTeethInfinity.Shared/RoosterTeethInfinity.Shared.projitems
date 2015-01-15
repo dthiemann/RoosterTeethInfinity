@@ -18,6 +18,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)DataModel\SampleDataSource.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)YouTubeChannels.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)YouTubeVideo.cs" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\rt_logo.jpg" />
     <Content Include="$(MSBuildThisFileDirectory)DataModel\SampleData.json" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\LightGray.png" />
     <Content Include="$(MSBuildThisFileDirectory)Assets\MediumGray.png" />
