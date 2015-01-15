@@ -96,7 +96,8 @@ namespace RoosterTeethInfinity
         {
             HubSection section = e.Section;
             var group = section.DataContext;
-            this.Frame.Navigate(typeof(SectionPage), ((SampleDataGroup)group).UniqueId);
+            //this.Frame.Navigate(typeof(SectionPage), ((SampleDataGroup)group).UniqueId);
+            this.Frame.Navigate(typeof (SectionPage), "hello");
         }
 
         /// <summary>
