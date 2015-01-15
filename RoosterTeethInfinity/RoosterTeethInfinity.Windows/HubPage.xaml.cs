@@ -133,16 +133,19 @@ namespace RoosterTeethInfinity
  
                     /* Rooster Teeth */ 
                     string YoutubeChannel = "RoosterTeeth"; 
-                    var rt_videos = await GetYoutubeChannel("http://gdata.youtube.com/feeds/base/users/" + YoutubeChannel + "/uploads?alt=rss&v=2&orderby=published&start-index=" + index + "&max-results=" + max_results); 
+                    var rt_videos = await YouTubeChannels.GetYoutubeChannel("http://gdata.youtube.com/feeds/base/users/" + YoutubeChannel + "/uploads?alt=rss&v=2&orderby=published&start-index=" + index + "&max-results=" + max_results); 
                     RoosterTeethHubSection.DataContext = rt_videos;
                     RoosterTeethHubSection.Header = "Rooster Teeth"; 
 
                     /* Achievement Hunter */
                     YoutubeChannel = "LetsPlay";
-                    var lp_videos = await GetYoutubeChannel("http://gdata.youtube.com/feeds/base/users/" + YoutubeChannel + "/uploads?alt=rss&v=2&orderby=published&start-index=" + index + "&max-results=" + max_results);
+                    var lp_videos = await YouTubeChannels.GetYoutubeChannel("http://gdata.youtube.com/feeds/base/users/" + YoutubeChannel + "/uploads?alt=rss&v=2&orderby=published&start-index=" + index + "&max-results=" + max_results);
                     LetsPlayHubSection.DataContext = lp_videos;
                     LetsPlayHubSection.Header = "Let's Play";
 
+                    /* The Know */
+
+                    /* Community Hunter */ 
                 } 
                 else 
                 { 
@@ -151,39 +154,6 @@ namespace RoosterTeethInfinity
                 } 
             } 
             catch {  } 
-        } 
-
-        /* Loads up the given YouTube Channel */
-        private async Task<List<YouTubeVideo>> GetYoutubeChannel(string url)
-        {
-            try
-            {
-                SyndicationClient client = new SyndicationClient();
-                SyndicationFeed feed = await client.RetrieveFeedAsync(new Uri(url));
-
-                List<YouTubeVideo> videosList = new List<YouTubeVideo>();
-                YouTubeVideo video;
-                foreach (SyndicationItem item in feed.Items)
-                {
-                    video = new YouTubeVideo();
-
-                    video.YouTubeLink = item.Links[0].Uri;
-                    string a = video.YouTubeLink.ToString().Remove(0, 31);
-                    video.Id = a.Substring(0, 11);
-                    video.Title = item.Title.Text;
-                    video.PubDate = item.PublishedDate.DateTime;
-
-                    video.Thumbnail = YouTube.GetThumbnailUri(video.Id, YouTubeThumbnailSize.Large);
-
-                    videosList.Add(video);
-                }
-
-                return videosList;
-            }
-            catch
-            {
-                return null;
-            }
         }
 
         #region NavigationHelper registration

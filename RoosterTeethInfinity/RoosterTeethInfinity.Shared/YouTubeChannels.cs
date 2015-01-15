@@ -24,6 +24,33 @@ namespace RoosterTeethInfinity
 {
     internal class YouTubeChannels
     {
-        
+        /* Loads up the given YouTube Channel */
+        public static async Task<List<YouTubeVideo>> GetYoutubeChannel(string url) {
+            try {
+                SyndicationClient client = new SyndicationClient();
+                SyndicationFeed feed = await client.RetrieveFeedAsync(new Uri(url));
+
+                List<YouTubeVideo> videosList = new List<YouTubeVideo>();
+                YouTubeVideo video;
+                foreach (SyndicationItem item in feed.Items) {
+                    video = new YouTubeVideo();
+
+                    video.YouTubeLink = item.Links[0].Uri;
+                    string a = video.YouTubeLink.ToString().Remove(0, 31);
+                    video.Id = a.Substring(0, 11);
+                    video.Title = item.Title.Text;
+                    video.PubDate = item.PublishedDate.DateTime;
+
+                    video.Thumbnail = YouTube.GetThumbnailUri(video.Id, YouTubeThumbnailSize.Large);
+
+                    videosList.Add(video);
+                }
+
+                return videosList;
+            }
+            catch {
+                return null;
+            }
+        }
     }
 }
