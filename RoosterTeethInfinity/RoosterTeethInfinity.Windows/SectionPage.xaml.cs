@@ -65,10 +65,10 @@ namespace RoosterTeethInfinity
         private async void NavigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
             // TODO: Create an appropriate data model for your problem domain to replace the sample data
-            
-            var group = await SampleDataSource.GetGroupAsync((string)e.NavigationParameter);
-            this.DefaultViewModel["Group"] = group;
-            this.DefaultViewModel["Items"] = group.Items;
+            var data = (List<YouTubeVideo>) e.NavigationParameter;
+            //var group = await SampleDataSource.GetGroupAsync((string)e.NavigationParameter);
+            //this.DefaultViewModel["Group"] = group;
+            //this.DefaultViewModel["Items"] = group.Items;
         }
 
         /// <summary>
