@@ -47,7 +47,7 @@ namespace RoosterTeethInfinity
         private YouTubeNavHelper rt_url;
         private YouTubeNavHelper lp_url;
         private YouTubeNavHelper tk_url;
-        private YouTubeNavHelper cl_url;
+        private YouTubeNavHelper ch_url;
 
         /// <summary>
         /// Gets the NavigationHelper used to aid in navigation and process lifetime management.
@@ -99,9 +99,28 @@ namespace RoosterTeethInfinity
         void Hub_SectionHeaderClick(object sender, HubSectionHeaderClickEventArgs e)
         {
             HubSection section = e.Section;
-            var group = section.DataContext;
+            string group = (string) section.Header;
+
+            var objectToSend = new YouTubeNavHelper();
+
+            switch (group)
+            {
+                case "Rooster Teeth":
+                    objectToSend = rt_url;
+                    break;
+                case "Let's Play":
+                    objectToSend = lp_url;
+                    break;
+                case "The Know":
+                    objectToSend = tk_url;
+                    break;
+                case "Community Hunter":
+                    objectToSend = ch_url;
+                    break;
+            }
+
             //this.Frame.Navigate(typeof(SectionPage), ((SampleDataGroup)group).UniqueId);
-            this.Frame.Navigate(typeof (SectionPage), (List<YouTubeVideo>) group);
+            this.Frame.Navigate(typeof (SectionPage), (YouTubeNavHelper) objectToSend);
         }
 
         /// <summary>
