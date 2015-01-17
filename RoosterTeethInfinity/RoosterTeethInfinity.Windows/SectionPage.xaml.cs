@@ -1,4 +1,5 @@
-﻿using RoosterTeethInfinity.Data;
+﻿using Windows.UI.Xaml.Media.Imaging;
+using RoosterTeethInfinity.Data;
 using RoosterTeethInfinity.Common;
 
 using System;
@@ -67,7 +68,24 @@ namespace RoosterTeethInfinity
             // TODO: Create an appropriate data model for your problem domain to replace the sample data
             YouTubeNavHelper data = (YouTubeNavHelper) e.NavigationParameter;
 
-            SubVideosGrid.DataContext = data;
+            /* Load the videos */
+            int index = 1;
+            int max_results = 50;
+
+            var videos =
+                await
+                    YouTubeChannels.GetYoutubeChannel(data.baseUrl + data.channelName + data.indexUrl + index +
+                                                      data.resultUrl + max_results);
+
+            /* Set the data context to the videos */
+            SubVideosGrid.DataContext = videos;
+
+            Uri uri = new Uri(data.imagePath);
+            SectionImage.Source = new BitmapImage(uri);
+            pageTitle.Text = data.headerName;
+            SubtitleTextBlock.Text = "Some subtitle";
+            DescriptionTextBlock.Text = "Some description";
+            
 
             //var group = await SampleDataSource.GetGroupAsync((string)e.NavigationParameter);
             //this.DefaultViewModel["Group"] = group;

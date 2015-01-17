@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-01-15T00:13:47.314</Modified>
+      <Modified>2015-01-17T03:09:11.464</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\RoosterTeethInfinity.Windows.exe">
       <PackagePath>RoosterTeethInfinity.Windows.exe</PackagePath>
-      <Modified>2015-01-15T04:51:14.131</Modified>
+      <Modified>2015-01-17T03:22:17.414</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\packages\Google.Apis.Auth.1.9.0\lib\netcore45\Google.Apis.Auth.dll">
       <PackagePath>Google.Apis.Auth.dll</PackagePath>
@@ -134,11 +134,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\HubPage.xbf">
       <PackagePath>HubPage.xbf</PackagePath>
-      <Modified>2015-01-15T00:13:46.379</Modified>
+      <Modified>2015-01-17T03:10:26.704</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\SectionPage.xbf">
       <PackagePath>SectionPage.xbf</PackagePath>
-      <Modified>2015-01-14T03:28:56.605</Modified>
+      <Modified>2015-01-17T03:10:26.706</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\ItemPage.xbf">
       <PackagePath>ItemPage.xbf</PackagePath>
@@ -146,7 +146,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\RoosterTeethInfinity.Windows.xr.xml">
       <PackagePath>RoosterTeethInfinity.Windows.xr.xml</PackagePath>
-      <Modified>2015-01-15T00:05:55.774</Modified>
+      <Modified>2015-01-17T03:10:26.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\packages\MyToolkit.Extended.2.3.22.0\lib\portable-wpa81+win8\MyToolkit.Extended\MyToolkit.Extended.xr.xml">
       <PackagePath>MyToolkit.Extended\MyToolkit.Extended.xr.xml</PackagePath>
@@ -170,7 +170,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-01-15T00:13:46.775</Modified>
+      <Modified>2015-01-17T03:09:10.882</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -156,20 +156,36 @@ namespace RoosterTeethInfinity
                     //Channel Videos 
  
                     /* Rooster Teeth */ 
-                    string YoutubeChannel = "RoosterTeeth"; 
-                    var rt_videos = await YouTubeChannels.GetYoutubeChannel("http://gdata.youtube.com/feeds/base/users/" + YoutubeChannel + "/uploads?alt=rss&v=2&orderby=published&start-index=" + index + "&max-results=" + max_results); 
-                    RoosterTeethHubSection.DataContext = rt_videos;
+                    string YoutubeChannel = "RoosterTeeth";
+                    var rtVideos = await YouTubeChannels.GetYoutubeChannel("http://gdata.youtube.com/feeds/base/users/" + YoutubeChannel + "/uploads?alt=rss&v=2&orderby=published&start-index=" + index + "&max-results=" + max_results); 
+                    RoosterTeethHubSection.DataContext = rtVideos;
                     RoosterTeethHubSection.Header = "Rooster Teeth"; 
+
+                    rt_url = new YouTubeNavHelper();
+                    rt_url.baseUrl = "http://gdata.youtube.com/feeds/base/users/";
+                    rt_url.channelName = YoutubeChannel;
+                    rt_url.headerName = "Rooster Teeth";
+                    rt_url.indexUrl = "/uploads?alt=rss&v=2&orderby=published&start-index=";
+                    rt_url.resultUrl = "&max-results=";
+                    rt_url.imagePath = @"C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Shared\Assets\rt_logo_section.jpg";
 
                     /* Achievement Hunter */
                     YoutubeChannel = "LetsPlay";
-                    var lp_videos = await YouTubeChannels.GetYoutubeChannel("http://gdata.youtube.com/feeds/base/users/" + YoutubeChannel + "/uploads?alt=rss&v=2&orderby=published&start-index=" + index + "&max-results=" + max_results);
-                    LetsPlayHubSection.DataContext = lp_videos;
+                    var lpVideos = await YouTubeChannels.GetYoutubeChannel("http://gdata.youtube.com/feeds/base/users/" + YoutubeChannel + "/uploads?alt=rss&v=2&orderby=published&start-index=" + index + "&max-results=" + max_results);
+                    LetsPlayHubSection.DataContext = lpVideos;
                     LetsPlayHubSection.Header = "Let's Play";
+
+                    lp_url = new YouTubeNavHelper();
+                    lp_url.baseUrl = "http://gdata.youtube.com/feeds/base/users/";
+                    lp_url.channelName = YoutubeChannel;
+                    lp_url.headerName = "Let's Play";
+                    lp_url.indexUrl = "/uploads?alt=rss&v=2&orderby=published&start-index=";
+                    lp_url.resultUrl = "&max-results=";
+                    lp_url.imagePath = @"C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Shared\Assets\ah_logo_selection.png";
 
                     /* The Know */
 
-                    /* Community Hunter */ 
+                    /* Community Hunter */
                 } 
                 else 
                 { 

@@ -10,8 +10,6 @@
     <RootPropertyPathName Name="NavigationHelper" />
     <RootPropertyPathName Name="GoBackCommand" />
     <RootPropertyPathName Name="Items" />
-    <RootPropertyPathName Name="Group" />
-    <RootPropertyPathName Name="Subtitle" />
     <RootPropertyPathName Name="Item" />
   </Roots.PropertyPathNames>
   <Roots.RootTypes>
@@ -24,7 +22,6 @@
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="RelativeSource" />
       <RootProperty Name="ElementName" />
-      <RootProperty Name="Source" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.RelativeSource" />
     <RootType FullName="Windows.UI.Xaml.DataTemplate">

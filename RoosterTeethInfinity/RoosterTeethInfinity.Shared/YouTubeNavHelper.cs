@@ -6,9 +6,11 @@ namespace RoosterTeethInfinity
 {
     class YouTubeNavHelper
     {
-        private string baseUrl { get; set; }
-        private string indexUrl { get; set; }
-        private string resultUrl { get; set; }
-        private string channelName { get; set; }
+        public string baseUrl { get; set; }
+        public string indexUrl { get; set; }
+        public string resultUrl { get; set; }
+        public string channelName { get; set; }
+        public string headerName { get; set; }
+        public string imagePath { get; set; }
     }
 }
