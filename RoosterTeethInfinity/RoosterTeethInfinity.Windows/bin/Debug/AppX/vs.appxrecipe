@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-01-17T03:51:19.590</Modified>
+      <Modified>2015-01-17T04:13:03.436</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\RoosterTeethInfinity.Windows.exe">
       <PackagePath>RoosterTeethInfinity.Windows.exe</PackagePath>
-      <Modified>2015-01-17T04:10:47.163</Modified>
+      <Modified>2015-01-17T04:13:02.909</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\packages\Google.Apis.Auth.1.9.0\lib\netcore45\Google.Apis.Auth.dll">
       <PackagePath>Google.Apis.Auth.dll</PackagePath>
@@ -110,7 +110,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Shared\Assets\ah_logo.png">
       <PackagePath>Assets\ah_logo.png</PackagePath>
-      <Modified>2015-01-17T03:44:41.721</Modified>
+      <Modified>2015-01-17T04:12:19.978</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Shared\Assets\LightGray.png">
       <PackagePath>Assets\LightGray.png</PackagePath>
@@ -142,7 +142,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\SectionPage.xbf">
       <PackagePath>SectionPage.xbf</PackagePath>
-      <Modified>2015-01-17T04:00:42.177</Modified>
+      <Modified>2015-01-17T04:13:02.617</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\ItemPage.xbf">
       <PackagePath>ItemPage.xbf</PackagePath>
@@ -150,7 +150,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\RoosterTeethInfinity.Windows.xr.xml">
       <PackagePath>RoosterTeethInfinity.Windows.xr.xml</PackagePath>
-      <Modified>2015-01-17T04:00:42.126</Modified>
+      <Modified>2015-01-17T04:12:20.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\packages\MyToolkit.Extended.2.3.22.0\lib\portable-wpa81+win8\MyToolkit.Extended\MyToolkit.Extended.xr.xml">
       <PackagePath>MyToolkit.Extended\MyToolkit.Extended.xr.xml</PackagePath>
@@ -174,7 +174,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-01-17T03:51:19.381</Modified>
+      <Modified>2015-01-17T04:13:03.006</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
