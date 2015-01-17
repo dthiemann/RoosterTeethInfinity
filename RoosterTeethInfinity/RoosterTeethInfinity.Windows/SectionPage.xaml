@@ -24,6 +24,7 @@
         * Row 1 contains the rest of the page layout
     -->
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+          x:Name="SubVideosGrid"
         DataContext="{Binding Group}"
         d:DataContext="{Binding Groups[5], Source={d:DesignData Source=../RoosterTeethInfinity.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}">
         <Grid.ChildrenTransitions>
