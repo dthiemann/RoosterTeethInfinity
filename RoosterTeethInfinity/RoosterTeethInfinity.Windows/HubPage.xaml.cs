@@ -167,7 +167,7 @@ namespace RoosterTeethInfinity
                     rt_url.headerName = "Rooster Teeth";
                     rt_url.indexUrl = "/uploads?alt=rss&v=2&orderby=published&start-index=";
                     rt_url.resultUrl = "&max-results=";
-                    rt_url.imagePath = @"C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Shared\Assets\rt_logo_section.jpg";
+                    rt_url.imagePath = @"C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Shared\Assets\rt_logo.jpg";
 
                     /* Achievement Hunter */
                     YoutubeChannel = "LetsPlay";
@@ -181,7 +181,7 @@ namespace RoosterTeethInfinity
                     lp_url.headerName = "Let's Play";
                     lp_url.indexUrl = "/uploads?alt=rss&v=2&orderby=published&start-index=";
                     lp_url.resultUrl = "&max-results=";
-                    lp_url.imagePath = @"C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Shared\Assets\ah_logo_selection.png";
+                    lp_url.imagePath = @"C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Shared\Assets\ah_logo.png";
 
                     /* The Know */
 
