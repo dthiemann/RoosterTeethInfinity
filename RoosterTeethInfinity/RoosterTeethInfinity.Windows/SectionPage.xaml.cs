@@ -80,12 +80,14 @@ namespace RoosterTeethInfinity
             /* Set the data context to the videos */
             SubVideosGrid.DataContext = videos;
 
-            Uri uri = new Uri(data.imagePath);
+            Uri uri = new Uri("ms-appdata:///" + data.imagePath);
             SectionImage.Source = new BitmapImage(uri);
             pageTitle.Text = data.headerName;
             SubtitleTextBlock.Text = "Some subtitle";
             DescriptionTextBlock.Text = "Some description";
-            
+
+            //SectionImageBrush.ImageSource = data.imagePath;
+
 
             //var group = await SampleDataSource.GetGroupAsync((string)e.NavigationParameter);
             //this.DefaultViewModel["Group"] = group;

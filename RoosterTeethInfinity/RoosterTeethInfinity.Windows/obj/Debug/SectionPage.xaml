@@ -71,7 +71,13 @@
             <GridView.Header>
                 <StackPanel Width="480" Margin="0,4,14,0">
                     <TextBlock x:Name="SubtitleTextBlock" x:Uid="Section3Subtitle" Text="Section subtitle" Margin="0,0,0,20" Style="{StaticResource SubheaderTextBlockStyle}" MaxHeight="60"/>
-                    <Image x:Name="SectionImage" Source="{Binding ImagePath}" Height="490" Width="490" Margin="0,0,0,20" Stretch="UniformToFill" AutomationProperties.Name="{Binding Title}"/>
+                    <Image x:Name="SectionImage" Source=""
+                           Height="490"
+                           Width="490"
+                           Margin="0,0,0,20"
+                           Stretch="UniformToFill"
+                           AutomationProperties.Name="{Binding Title}">
+                    </Image>
                     <TextBlock x:Name="DescriptionTextBlock" Text="{Binding Description}" Margin="0,0,0,0" Style="{StaticResource BodyTextBlockStyle}"/>
                 </StackPanel>
             </GridView.Header>
