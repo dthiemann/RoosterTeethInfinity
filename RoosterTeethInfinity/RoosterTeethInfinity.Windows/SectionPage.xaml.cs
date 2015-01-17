@@ -80,11 +80,11 @@ namespace RoosterTeethInfinity
             /* Set the data context to the videos */
             SubVideosGrid.DataContext = videos;
 
+            SectionStackPanel.DataContext = data;
+
             pageTitle.Text = data.headerName;
             SubtitleTextBlock.Text = "Some subtitle";
             DescriptionTextBlock.Text = "Some description";
-
-            //SectionImageBrush.ImageSource = data.imagePath;
 
 
             //var group = await SampleDataSource.GetGroupAsync((string)e.NavigationParameter);

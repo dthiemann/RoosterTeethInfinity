@@ -11,6 +11,6 @@ namespace RoosterTeethInfinity
         public string resultUrl { get; set; }
         public string channelName { get; set; }
         public string headerName { get; set; }
-        public string imagePath { get; set; }
+        public Uri imagePath { get; set; }
     }
 }

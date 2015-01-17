@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Storage.BulkAccess;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -32,6 +33,8 @@ using MyToolkit.Multimedia;
 using Windows.UI.Popups;
 using Windows.Web.Syndication;
 using System.Net.NetworkInformation;
+using Path = Windows.UI.Xaml.Shapes.Path;
+
 // The Universal Hub Application project template is documented at http://go.microsoft.com/fwlink/?LinkID=391955
 
 namespace RoosterTeethInfinity
@@ -167,7 +170,7 @@ namespace RoosterTeethInfinity
                     rt_url.headerName = "Rooster Teeth";
                     rt_url.indexUrl = "/uploads?alt=rss&v=2&orderby=published&start-index=";
                     rt_url.resultUrl = "&max-results=";
-                    rt_url.imagePath = @"C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Shared\Assets\rt_logo.jpg";
+                    rt_url.imagePath = new Uri("https://lh6.googleusercontent.com/-hddEYyXVeZM/AAAAAAAAAAI/AAAAAAAAAVI/p_PnOKMQBhY/photo.jpg");
 
                     /* Achievement Hunter */
                     YoutubeChannel = "LetsPlay";
@@ -181,7 +184,7 @@ namespace RoosterTeethInfinity
                     lp_url.headerName = "Let's Play";
                     lp_url.indexUrl = "/uploads?alt=rss&v=2&orderby=published&start-index=";
                     lp_url.resultUrl = "&max-results=";
-                    lp_url.imagePath = @"C:\Users\dylan_000\Documents\Visual Studio 2013\Projects\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Shared\Assets\ah_logo.png";
+                    lp_url.imagePath = new Uri("http://th07.deviantart.net/fs71/PRE/i/2013/034/4/1/achievement_hunter_logo_by_we_are_the_meta19962-d5tqhra.png");
 
                     /* The Know */
 
