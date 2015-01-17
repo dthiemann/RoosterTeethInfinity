@@ -72,7 +72,7 @@
                 <StackPanel x:Name="SectionStackPanel" Width="480" Margin="0,4,14,0" DataContext="{Binding}">
                     <TextBlock x:Name="SubtitleTextBlock" x:Uid="Section3Subtitle" Text="Section subtitle" Margin="0,0,0,20" Style="{StaticResource SubheaderTextBlockStyle}" MaxHeight="60"/>
                     <Image x:Name="SectionImage" Source="{Binding imagePath}"
-                           Height="400"
+                           Height="475"
                            Margin="0,0,0,20"
                            Stretch="UniformToFill"
                            AutomationProperties.Name="{Binding Title}">
@@ -99,7 +99,7 @@
                         AutomationProperties.Name="Back"
                         AutomationProperties.AutomationId="BackButton"
                         AutomationProperties.ItemType="Navigation Button"/>
-            <TextBlock x:Name="pageTitle" x:Uid="Section3Header.Text" Text="Section 3" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+            <TextBlock x:Name="pageTitle" x:Uid="Section3Header.Text" Text="" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
     </Grid>
