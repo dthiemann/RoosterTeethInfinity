@@ -33,8 +33,6 @@ using MyToolkit.Multimedia;
 using Windows.UI.Popups;
 using Windows.Web.Syndication;
 using System.Net.NetworkInformation;
-using System.Xml;
-using System.Net.Http;
 using Path = Windows.UI.Xaml.Shapes.Path;
 
 // The Universal Hub Application project template is documented at http://go.microsoft.com/fwlink/?LinkID=391955
