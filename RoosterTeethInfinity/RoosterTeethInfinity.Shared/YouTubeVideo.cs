@@ -13,5 +13,6 @@ namespace RoosterTeethInfinity
         public Uri YouTubeLink { get; set; }
         public Uri VideoLink { get; set; }
         public Uri Thumbnail { get; set; }
+        public string Description { get; set; }
     }
 }
