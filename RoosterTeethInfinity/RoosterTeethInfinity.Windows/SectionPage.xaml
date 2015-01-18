@@ -70,7 +70,7 @@
             </GridView.ItemTemplate>
             <GridView.Header>
                 <StackPanel x:Name="SectionStackPanel" Width="480" Margin="0,4,14,0" DataContext="{Binding}">
-                    <TextBlock x:Name="SubtitleTextBlock" x:Uid="Section3Subtitle" Text="Section subtitle" Margin="0,0,0,20" Style="{StaticResource SubheaderTextBlockStyle}" MaxHeight="60"/>
+                    <TextBlock x:Name="SubtitleTextBlock" x:Uid="Section3Subtitle" Text="" Margin="0,0,0,20" Style="{StaticResource SubheaderTextBlockStyle}" MaxHeight="60"/>
                     <Image x:Name="SectionImage" Source="{Binding imagePath}"
                            Height="475"
                            Margin="0,0,0,20"
