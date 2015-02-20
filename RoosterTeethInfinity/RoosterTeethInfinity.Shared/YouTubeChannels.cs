@@ -54,7 +54,7 @@ namespace RoosterTeethInfinity
                 return null;
             }
         }
-        public async Task<List<YouTubeVideo>> GetYoutubeChannelXML(string url) {
+        /*public async Task<List<YouTubeVideo>> GetYoutubeChannelXML(string url) {
             try {
                 HttpClient client = new HttpClient();
                 var feedXML = await client.GetStringAsync(new Uri(url));
@@ -72,7 +72,6 @@ namespace RoosterTeethInfinity
                     video.Id = a.Substring(0, 11);
                     video.Title = item.Title.Text;
                     video.PubDate = item.PublishedDate.DateTime;
-                    item.
 
                     video.Thumbnail = YouTube.GetThumbnailUri(video.Id, YouTubeThumbnailSize.Small);
 
@@ -82,9 +81,9 @@ namespace RoosterTeethInfinity
                 return videosList;
             }
             catch (Exception ex) {
-                MessageBox.Show(ex.Message);
+                //MessageBox.Show(ex.Message);
                 return null;
             }
-        } 
+        } */
     }
 }
