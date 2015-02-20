@@ -28,8 +28,8 @@ using Google.Apis.Util.Store;
 using Google.Apis.YouTube.v3;
 using Google.Apis.YouTube.v3.Data;
 
-using MyToolkit;
-using MyToolkit.Multimedia;
+//using MyToolkit;
+//using MyToolkit.Multimedia;
 using Windows.UI.Popups;
 using Windows.Web.Syndication;
 using System.Net.NetworkInformation;
