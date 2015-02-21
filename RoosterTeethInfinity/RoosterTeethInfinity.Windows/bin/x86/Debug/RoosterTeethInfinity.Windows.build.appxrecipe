@@ -110,6 +110,9 @@
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\x86\Debug\ItemPage.xbf">
       <PackagePath>ItemPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\x86\Debug\SettingsFlyout1.xbf">
+      <PackagePath>SettingsFlyout1.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\x86\Debug\RoosterTeethInfinity.Windows.xr.xml">
       <PackagePath>RoosterTeethInfinity.Windows.xr.xml</PackagePath>
     </AppxPackagedFile>

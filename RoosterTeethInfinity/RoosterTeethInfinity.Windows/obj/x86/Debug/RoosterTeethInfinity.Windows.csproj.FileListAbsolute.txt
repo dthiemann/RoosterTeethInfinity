@@ -78,3 +78,8 @@ C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethI
 C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\obj\x86\Debug\MyToolkit.Extended.pri.xml
 C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\x86\Debug\SettingsFlyout1.xbf
+C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\obj\x86\Debug\SettingsFlyout1.g.i.cs
+C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\obj\x86\Debug\SettingsFlyout1.g.cs
+C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\obj\x86\Debug\SettingsFlyout1.xaml
+C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\obj\x86\Debug\SettingsFlyout1.xbf

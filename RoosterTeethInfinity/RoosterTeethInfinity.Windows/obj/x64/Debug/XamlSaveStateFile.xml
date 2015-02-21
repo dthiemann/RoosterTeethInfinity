@@ -1,6 +1,5 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\roosterteethinfinity\roosterteethinfinity.windows\obj\x86\debug\intermediatexaml\roosterteethinfinity.windows.exe" HashGuid="dc8e50cd-70f6-9b1e-8eba-b000463946b8" />
     <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.apis.auth.1.9.0\lib\netcore45\google.apis.auth.dll" HashGuid="04c9bafe-dbbf-bf32-cd3f-4d572f37e3c1" />
     <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.apis.auth.1.9.0\lib\netcore45\google.apis.auth.platformservices.dll" HashGuid="4f8fde0a-c1c9-6151-8119-9d76ab040ff4" />
     <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.apis.core.1.9.1\lib\portable-net40+sl50+win+wpa81+wp80\google.apis.core.dll" HashGuid="55d6e654-674f-a43c-52cc-885f574eab22" />

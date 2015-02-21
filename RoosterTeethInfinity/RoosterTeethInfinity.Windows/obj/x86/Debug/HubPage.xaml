@@ -124,7 +124,7 @@
                     <ImageBrush ImageSource="Assets/rt_logo.jpg" Stretch="UniformToFill" />
                 </HubSection.Background>
             </HubSection>
-           
+                
             <HubSection x:Name="RoosterTeethHubSection" IsHeaderInteractive="True"  d:DataContext="{Binding Groups[3], Source={d:DesignData Source=../RoosterTeethInfinity.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"
                         x:Uid="Section3Header" Header="Rooster Teeth" Padding="40,40,40,32">
                 <DataTemplate>

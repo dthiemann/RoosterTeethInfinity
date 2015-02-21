@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\x86\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-02-20T01:59:33.795</Modified>
+      <Modified>2015-02-21T20:24:38.928</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\x86\Debug\RoosterTeethInfinity.Windows.exe">
       <PackagePath>RoosterTeethInfinity.Windows.exe</PackagePath>
-      <Modified>2015-02-20T01:59:31.197</Modified>
+      <Modified>2015-02-21T20:24:38.397</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\packages\Google.Apis.Auth.1.9.0\lib\netcore45\Google.Apis.Auth.dll">
       <PackagePath>Google.Apis.Auth.dll</PackagePath>
@@ -138,7 +138,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\x86\Debug\HubPage.xbf">
       <PackagePath>HubPage.xbf</PackagePath>
-      <Modified>2015-02-20T01:59:30.856</Modified>
+      <Modified>2015-02-21T20:22:58.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\x86\Debug\SectionPage.xbf">
       <PackagePath>SectionPage.xbf</PackagePath>
@@ -148,9 +148,13 @@
       <PackagePath>ItemPage.xbf</PackagePath>
       <Modified>2015-02-20T01:59:30.860</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\x86\Debug\SettingsFlyout1.xbf">
+      <PackagePath>SettingsFlyout1.xbf</PackagePath>
+      <Modified>2015-02-21T20:22:58.357</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\x86\Debug\RoosterTeethInfinity.Windows.xr.xml">
       <PackagePath>RoosterTeethInfinity.Windows.xr.xml</PackagePath>
-      <Modified>2015-02-20T01:59:30.127</Modified>
+      <Modified>2015-02-21T20:18:26.639</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\packages\MyToolkit.Extended.2.3.22.0\lib\portable-wpa81+win8\MyToolkit.Extended\MyToolkit.Extended.xr.xml">
       <PackagePath>MyToolkit.Extended\MyToolkit.Extended.xr.xml</PackagePath>
@@ -174,7 +178,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-02-20T01:59:32.620</Modified>
+      <Modified>2015-02-21T20:24:38.492</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
