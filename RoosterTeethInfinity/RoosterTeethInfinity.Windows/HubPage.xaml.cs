@@ -230,11 +230,11 @@ namespace RoosterTeethInfinity
             ToggleSwitch mySwitch = (ToggleSwitch) sender;
             if (mySwitch.IsOn)
             {
-                RoosterTeethHubSection.IsEnabled = false;
+                RoosterTeethHubSection.Visibility = Visibility.Collapsed;
             }
             else
             {
-                RoosterTeethHubSection.IsEnabled = true;
+                RoosterTeethHubSection.Visibility = Visibility.Visible;
             }
         }
 
@@ -243,11 +243,11 @@ namespace RoosterTeethInfinity
             ToggleSwitch mySwitch = (ToggleSwitch) sender;
             if (mySwitch.IsOn)
             {
-                LetsPlayHubSection.IsEnabled = false;
+                LetsPlayHubSection.Visibility = Visibility.Collapsed;
             }
             else
             {
-                LetsPlayHubSection.IsEnabled = true;
+                LetsPlayHubSection.Visibility = Visibility.Visible;
             }
         }
     }
