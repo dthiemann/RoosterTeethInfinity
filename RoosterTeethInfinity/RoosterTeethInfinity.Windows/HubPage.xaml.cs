@@ -137,8 +137,27 @@ namespace RoosterTeethInfinity
         {
             // Navigate to the appropriate destination page, configuring the new page
             // by passing required information as a navigation parameter
-            var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
-            this.Frame.Navigate(typeof(ItemPage), itemId);
+            //var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
+            
+            string group = (string)section.Header;
+
+            var objectToSend = new YouTubeNavHelper();
+
+            switch (group) {
+                case "Rooster Teeth":
+                    objectToSend = rt_url;
+                    break;
+                case "Let's Play":
+                    objectToSend = lp_url;
+                    break;
+                case "The Know":
+                    objectToSend = tk_url;
+                    break;
+                case "Community Hunter":
+                    objectToSend = ch_url;
+                    break;
+            }
+            //this.Frame.Navigate(typeof(ItemPage), itemId);
         }
 
         private async void LoadVideos()
