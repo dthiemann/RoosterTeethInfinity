@@ -26,7 +26,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\RoosterTeethInfinity.Windows.exe">
       <PackagePath>RoosterTeethInfinity.Windows.exe</PackagePath>
-      <Modified>2015-02-22T03:34:19.803</Modified>
+      <Modified>2015-02-22T05:26:31.692</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\packages\Google.Apis.Auth.1.9.1\lib\netcore45\Google.Apis.Auth.dll">
       <PackagePath>Google.Apis.Auth.dll</PackagePath>
@@ -138,7 +138,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\HubPage.xbf">
       <PackagePath>HubPage.xbf</PackagePath>
-      <Modified>2015-02-22T02:29:40.691</Modified>
+      <Modified>2015-02-22T05:25:24.840</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\SectionPage.xbf">
       <PackagePath>SectionPage.xbf</PackagePath>
@@ -150,11 +150,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\SettingsFlyout1.xbf">
       <PackagePath>SettingsFlyout1.xbf</PackagePath>
-      <Modified>2015-02-22T03:34:19.459</Modified>
+      <Modified>2015-02-22T05:25:24.843</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\RoosterTeethInfinity\RoosterTeethInfinity.Windows\bin\Debug\RoosterTeethInfinity.Windows.xr.xml">
       <PackagePath>RoosterTeethInfinity.Windows.xr.xml</PackagePath>
-      <Modified>2015-02-22T03:34:19.375</Modified>
+      <Modified>2015-02-22T05:25:24.631</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dylan\Documents\RoosterTeethInfinity\packages\MyToolkit.Extended.2.3.28.0\lib\portable-wpa81+win8\MyToolkit.Extended\MyToolkit.Extended.xr.xml">
       <PackagePath>MyToolkit.Extended\MyToolkit.Extended.xr.xml</PackagePath>

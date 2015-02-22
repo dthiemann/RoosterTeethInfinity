@@ -21,13 +21,17 @@
             <TextBlock Margin="0,0,0,25"
                        Text="Use toggle switches to let users set Boolean values."
                        Style="{StaticResource BodyTextBlockStyle}" />
-            <ToggleSwitch Margin="-6,0,0,0"
-                          Header="Download updates automatically"
+            <ToggleSwitch x:ConnectionId='1' x:Name="HideRoosterTeethSwitch"
+                          Margin="-6,0,0,0"
+                          Header="Hide Rooster Teeth Videos"
                           HorizontalAlignment="Left"
-                          HorizontalContentAlignment="Left" />
-            <ToggleSwitch Margin="-6,0,0,0"
-                          Header="Install updates automatically"
-                          HorizontalAlignment="Stretch" />
+                          HorizontalContentAlignment="Left"
+                                                   />
+            <ToggleSwitch x:ConnectionId='2' x:Name="HideLetsPlaySwitch"
+                          Margin="-6,0,0,0"
+                          Header="Hide Let's Play Videos"
+                          HorizontalAlignment="Stretch"
+                                                   />
         </StackPanel>
 
         <!-- Button -->

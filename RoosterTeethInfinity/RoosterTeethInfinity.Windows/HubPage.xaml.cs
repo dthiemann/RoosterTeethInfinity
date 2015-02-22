@@ -33,6 +33,7 @@ using Google.Apis.YouTube.v3.Data;
 using Windows.UI.Popups;
 using Windows.Web.Syndication;
 using System.Net.NetworkInformation;
+using MyToolkit.Utilities;
 using Path = Windows.UI.Xaml.Shapes.Path;
 
 // The Universal Hub Application project template is documented at http://go.microsoft.com/fwlink/?LinkID=391955
@@ -74,16 +75,6 @@ namespace RoosterTeethInfinity
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
             this.LoadVideos();
-        }
-
-        public void HideRtVideos()
-        {
-            RoosterTeethHubSection.IsEnabled = false;
-        }
-
-        public void HideLpVideos()
-        {
-            LetsPlayHubSection.IsEnabled = false;
         }
 
         /// <summary>
@@ -231,5 +222,33 @@ namespace RoosterTeethInfinity
         }
 
         #endregion
+
+
+
+        private void HideRtVids_toggled(object sender, RoutedEventArgs e)
+        {
+            ToggleSwitch mySwitch = (ToggleSwitch) sender;
+            if (mySwitch.IsOn)
+            {
+                RoosterTeethHubSection.IsEnabled = false;
+            }
+            else
+            {
+                RoosterTeethHubSection.IsEnabled = true;
+            }
+        }
+
+        private void HideLpVids_toggled(object sender, RoutedEventArgs e)
+        {
+            ToggleSwitch mySwitch = (ToggleSwitch) sender;
+            if (mySwitch.IsOn)
+            {
+                LetsPlayHubSection.IsEnabled = false;
+            }
+            else
+            {
+                LetsPlayHubSection.IsEnabled = true;
+            }
+        }
     }
 }

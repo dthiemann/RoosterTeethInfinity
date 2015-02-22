@@ -129,8 +129,8 @@
       <RootProperty Name="Background" />
       <RootProperty Name="IsHeaderInteractive" />
       <RootProperty Name="Header" />
-      <RootProperty Name="Padding" />
       <RootProperty Name="ContentTemplate" />
+      <RootProperty Name="Padding" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.GridView">
       <RootProperty Name="ItemsSource" />
@@ -144,6 +144,15 @@
       <RootProperty Name="Header" />
       <RootProperty Name="ItemContainerStyle" />
       <RootEvent Name="ItemClick" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ToggleSwitch">
+      <RootProperty Name="Header" />
+      <RootProperty Name="OnContent" />
+      <RootProperty Name="OffContent" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="HorizontalContentAlignment" />
+      <RootEvent Name="Toggled" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />
@@ -197,12 +206,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ComboBoxItem">
       <RootProperty Name="Content" />
-    </RootType>
-    <RootType FullName="Windows.UI.Xaml.Controls.ToggleSwitch">
-      <RootProperty Name="Margin" />
-      <RootProperty Name="Header" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootProperty Name="HorizontalContentAlignment" />
     </RootType>
     <RootType FullName="RoosterTeethInfinity.SettingsFlyout1" />
   </Roots.RootTypes>
