@@ -17,6 +17,21 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+// References to Google API
+using Google.Apis.Auth.OAuth2;
+using Google.Apis.Upload;
+using Google.Apis.Services;
+using Google.Apis.Util.Store;
+using Google.Apis.YouTube.v3;
+using Google.Apis.YouTube.v3.Data;
+
+//using MyToolkit;
+//using MyToolkit.Multimedia;
+using Windows.UI.Popups;
+using Windows.Web.Syndication;
+using System.Net.NetworkInformation;
+using MyToolkit.Utilities;
+using Path = Windows.UI.Xaml.Shapes.Path;
 
 namespace RoosterTeethInfinity
 {
