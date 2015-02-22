@@ -76,6 +76,16 @@ namespace RoosterTeethInfinity
             this.LoadVideos();
         }
 
+        public void HideRtVideos()
+        {
+            RoosterTeethHubSection.IsEnabled = false;
+        }
+
+        public void HideLpVideos()
+        {
+            LetsPlayHubSection.IsEnabled = false;
+        }
+
         /// <summary>
         /// Populates the page with content passed during navigation.  Any saved state is also
         /// provided when recreating a page from a prior session.
