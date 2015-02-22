@@ -11,27 +11,99 @@
     d:DesignWidth="346">
 
     <!-- This StackPanel acts as a root panel for vertical layout of the content sections -->
-    <StackPanel VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+    <StackPanel VerticalAlignment="Stretch"
+                HorizontalAlignment="Stretch">
 
-        <!-- The StackPanel(s) below define individual content sections -->
-
-        <!-- Content Section 1-->
+        <!-- Toggle switch -->
         <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
-
-            <!-- Section 1 header -->
-            <TextBlock Style="{StaticResource TitleTextBlockStyle}" Text="Lorem ipsum" />
-
-            <!-- Section 1 body -->
-            <TextBlock Style="{StaticResource BodyTextBlockStyle}" Margin="0,0,0,25" TextWrapping="Wrap">
-                <TextBlock.Text>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </TextBlock.Text>
-            </TextBlock>
-
+            <TextBlock Text="Toggle Switch"
+                       Style="{StaticResource TitleTextBlockStyle}" />
+            <TextBlock Margin="0,0,0,25"
+                       Text="Use toggle switches to let users set Boolean values."
+                       Style="{StaticResource BodyTextBlockStyle}" />
+            <ToggleSwitch Margin="-6,0,0,0"
+                          Header="Download updates automatically"
+                          HorizontalAlignment="Left"
+                          HorizontalContentAlignment="Left" />
+            <ToggleSwitch Margin="-6,0,0,0"
+                          Header="Install updates automatically"
+                          HorizontalAlignment="Stretch" />
         </StackPanel>
 
-        <!-- Define more Content Sections below as necessary -->
+        <!-- Button -->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+            <TextBlock Text="Push button"
+                       Style="{StaticResource TitleTextBlockStyle}" />
+            <TextBlock Margin="0,0,0,25"
+                       Text="With a push button, users initiate an immediate action."
+                       Style="{StaticResource BodyTextBlockStyle}" />
+            <TextBlock Text="Button label"
+                       Style="{StaticResource BodyTextBlockStyle}" />
+            <Button Margin="-3,0,0,0"
+                    Content="Clear" />
+        </StackPanel>
 
+        <!-- ComboBox -->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+            <TextBlock Text="ComboBox"
+                       Style="{StaticResource TitleTextBlockStyle}" />
+            <TextBlock Margin="0,0,0,25"
+                       Text="Use the ComboBox to allow users to select one item from a set of text-only items."
+                       Style="{StaticResource BodyTextBlockStyle}" />
+            <ComboBox Header="State:"
+                      Margin="0,7,0,0"
+                      SelectedIndex="0"
+                      HorizontalAlignment="Left">
+                <ComboBoxItem Content="Washington" />
+                <ComboBoxItem Content="Oregon" />
+                <ComboBoxItem Content="California" />
+            </ComboBox>
+        </StackPanel>
+
+        <!-- HyperlinkButton -->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+            <TextBlock Text="Hyperlink"
+                       Style="{StaticResource TitleTextBlockStyle}" />
+            <TextBlock Margin="0,0,0,25"
+                       Text="Use a hyperlink when the associated action will take the user out of this flyout."
+                       Style="{StaticResource BodyTextBlockStyle}" />
+            <HyperlinkButton Padding="-5,0,0,0"
+                             Content="View privacy statement"
+                             Tag="http://privacy.microsoft.com"
+                             HorizontalAlignment="Left" />
+        </StackPanel>
+
+        <!-- TextBox -->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+            <TextBlock Text="TextBox"
+                       Style="{StaticResource TitleTextBlockStyle}" />
+            <TextBlock Margin="0,0,0,25"
+                       Text="Use a TextBox to allow users to enter text."
+                       Style="{StaticResource BodyTextBlockStyle}" />
+            <StackPanel Margin="0,7,0,0"
+                        Orientation="Horizontal">
+                <TextBox HorizontalAlignment="Left"
+                         Width="150" />
+                <Button Margin="20,0,0,0"
+                        Content="Add" />
+            </StackPanel>
+        </StackPanel>
+
+        <!-- RadioButton -->
+        <StackPanel Style="{StaticResource SettingsFlyoutSectionStyle}">
+            <TextBlock Text="Radio button group"
+                       Style="{StaticResource TitleTextBlockStyle}" />
+            <TextBlock Margin="0,0,0,25"
+                       Text="Lets users choose one item from a small set of mutually exclusive, related options."
+                       Style="{StaticResource BodyTextBlockStyle}" />
+            <TextBlock Text="Video quality"
+                       Style="{StaticResource BodyTextBlockStyle}" />
+            <RadioButton Margin="0,7,0,0"
+                         Content="High" />
+            <RadioButton Margin="0,17,0,0"
+                         Content="Medium" />
+            <RadioButton Margin="0,17,0,0"
+                         Content="Low" />
+        </StackPanel>
     </StackPanel>
 </SettingsFlyout>

@@ -4,7 +4,7 @@
         <name>Google.Apis.PlatformServices</name>
     </assembly>
     <members>
-        <member name="T:Google.Apis.Util.Store.StroageDataStore">
+        <member name="T:Google.Apis.Util.Store.StorageDataStore">
             <summary>
             Windows Store data store that implements <see cref="T:Google.Apis.Util.Store.IDataStore"/>. This store creates a different file for each 
             combination of type and key.
