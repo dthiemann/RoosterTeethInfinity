@@ -84,13 +84,13 @@ namespace RoosterTeethInfinity
             YouTubeNavHelper data = (YouTubeNavHelper) e.NavigationParameter;
 
             /* Load the videos */
-            int index = 1;
-            int max_results = 50;
+            const int index = 1;
+            const int maxResults = 50;
 
             var videos =
                 await
                     YouTubeChannels.GetYoutubeChannel(data.baseUrl + data.channelName + data.indexUrl + index +
-                                                      data.resultUrl + max_results);
+                                                      data.resultUrl + maxResults);
 
             /* Set the data context to the videos */
             SubVideosGrid.DataContext = videos;
