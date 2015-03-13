@@ -33,6 +33,7 @@ using Google.Apis.YouTube.v3.Data;
 using Windows.UI.Popups;
 using Windows.Web.Syndication;
 using System.Net.NetworkInformation;
+using Windows.UI.ViewManagement;
 using MyToolkit.Utilities;
 using Path = Windows.UI.Xaml.Shapes.Path;
 
@@ -138,8 +139,10 @@ namespace RoosterTeethInfinity
             // Navigate to the appropriate destination page, configuring the new page
             // by passing required information as a navigation parameter
             //var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
-            
-            string group = (string)section.Header;
+
+            YouTubeVideo theVideo = (YouTubeVideo) e.ClickedItem;
+            Debug.WriteLine(theVideo.Id);
+            string group = (string)LetsPlayHubSection.Header;
 
             var objectToSend = new YouTubeNavHelper();
 
@@ -157,7 +160,7 @@ namespace RoosterTeethInfinity
                     objectToSend = ch_url;
                     break;
             }
-            //this.Frame.Navigate(typeof(ItemPage), itemId);
+            this.Frame.Navigate(typeof(ItemPage), theVideo.Id);
         }
 
         private async void LoadVideos()
@@ -209,6 +212,12 @@ namespace RoosterTeethInfinity
                     /* The Know */
 
                     /* Community Hunter */
+
+                    /* FunHaus */
+
+                    /* Red vs. Blue */
+
+                    /* Game Kids */
                 } 
                 else 
                 { 

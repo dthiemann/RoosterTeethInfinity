@@ -11,7 +11,6 @@ namespace RoosterTeethInfinity
         public string Summary { get; set; }
         public DateTime PubDate { get; set; }
         public Uri YouTubeLink { get; set; }
-        public Uri VideoLink { get; set; }
         public Uri Thumbnail { get; set; }
         public string Description { get; set; }
     }

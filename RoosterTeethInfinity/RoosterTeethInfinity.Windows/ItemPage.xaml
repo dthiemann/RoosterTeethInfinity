@@ -38,7 +38,8 @@
                           Height="320"
                           Margin="46,38,0,0"
                           VerticalAlignment="Top"
-                          Width="480" />
+                          Width="480"
+                          IsFullWindow="False" />
             <Border BorderBrush="LawnGreen"
                     BorderThickness="1"
                     HorizontalAlignment="Left"

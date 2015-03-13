@@ -4,6 +4,7 @@ using RoosterTeethInfinity.Common;
 
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
@@ -16,8 +17,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.
-Navigation;
+using Windows.UI.Xaml.Navigation;
 
 // References to Google API
 using Google.Apis.Auth.OAuth2;
@@ -26,7 +26,7 @@ using Google.Apis.Services;
 using Google.Apis.Util.Store;
 using Google.Apis.YouTube.v3;
 using Google.Apis.YouTube.v3.Data;
-
+using Microsoft.VisualBasic;
 using MyToolkit;
 
 // The Universal Hub Application project template is documented at http://go.microsoft.com/fwlink/?LinkID=391955
@@ -40,13 +40,14 @@ namespace RoosterTeethInfinity
     {
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
+        private string videoId;
+        private bool isPlaying = false;
 
         public ItemPage()
         {
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += this.NavigationHelper_LoadState;
-            this.PlayVideo();
         }
 
         /// <summary>
@@ -59,9 +60,7 @@ namespace RoosterTeethInfinity
 
         private async void PlayVideo()
         {
-            var youtubeId = "djd0BIXJmeg";
-            var url = await YouTube.GetVideoUriAsync(youtubeId, YouTubeQuality.Quality720P);
-
+            var url = await YouTube.GetVideoUriAsync(this.videoId, YouTubeQuality.Quality720P);
             if (url != null)
             {
                 PlayerME.Source = url.Uri;
@@ -91,8 +90,12 @@ namespace RoosterTeethInfinity
         private async void NavigationHelper_LoadState(object sender, LoadStateEventArgs e)
         {
             // TODO: Create an appropriate data model for your problem domain to replace the sample data
-            var item = await SampleDataSource.GetItemAsync((string)e.NavigationParameter);
-            this.DefaultViewModel["Item"] = item;
+            //var item = await SampleDataSource.GetItemAsync((string)e.NavigationParameter);
+            //this.DefaultViewModel["Item"] = item;
+
+            string videoId1 = (string)e.NavigationParameter;
+            this.videoId = videoId1;
+          
         }
 
         #region NavigationHelper registration
@@ -124,6 +127,11 @@ namespace RoosterTeethInfinity
             var myButton = (Button) sender;
             if (myButton.Content.Equals("Play"))
             {
+                if (!isPlaying)
+                {
+                    this.PlayVideo();
+                    isPlaying = true;
+                }
                 PlayerME.Play();
                 myButton.Content = "Pause";
             }

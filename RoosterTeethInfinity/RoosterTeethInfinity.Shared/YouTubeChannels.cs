@@ -42,7 +42,6 @@ namespace RoosterTeethInfinity
                     video.Id = a.Substring(0, 11);
                     video.Title = item.Title.Text;
                     video.PubDate = item.PublishedDate.DateTime;
-
                     video.Thumbnail = YouTube.GetThumbnailUri(video.Id, YouTubeThumbnailSize.Large);
 
                     videosList.Add(video);

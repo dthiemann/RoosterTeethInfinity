@@ -176,6 +176,7 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Width" />
+      <RootProperty Name="IsFullWindow" />
     </RootType>
     <RootType FullName="RoosterTeethInfinity.ItemPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.SettingsFlyout">
