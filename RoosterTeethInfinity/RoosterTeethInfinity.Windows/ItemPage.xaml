@@ -55,6 +55,18 @@
                     VerticalAlignment="Top"
                     Width="132"
                     Click="PlayVideo" />
+            <Button x:Name="FullscreenButton"
+                    Content="Fullscreen"
+                    HorizontalAlignment="Left"
+                    Margin="225,409,0,0"
+                    VerticalAlignment="Top"
+                    Click="GoFullscreen" />
+            <ProgressBar x:Name="VideoProgressBar"
+                         HorizontalAlignment="Left"
+                         Height="26"
+                         Margin="352,567,0,0"
+                         VerticalAlignment="Top"
+                         Width="666" />
         </Grid>
 
         <!-- Back button and page title -->

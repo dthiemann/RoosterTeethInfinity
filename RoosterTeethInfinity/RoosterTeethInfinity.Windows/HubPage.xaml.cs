@@ -141,7 +141,7 @@ namespace RoosterTeethInfinity
             //var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
 
             YouTubeVideo theVideo = (YouTubeVideo) e.ClickedItem;
-            Debug.WriteLine(theVideo.Id);
+            Debug.WriteLine(theVideo.Description);
             string group = (string)LetsPlayHubSection.Header;
 
             var objectToSend = new YouTubeNavHelper();

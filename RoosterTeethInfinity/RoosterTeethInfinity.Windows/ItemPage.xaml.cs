@@ -11,6 +11,7 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using System.Windows.Input;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Media;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -40,6 +41,7 @@ namespace RoosterTeethInfinity
     {
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
+        SystemMediaTransportControls systemControls;
         private string videoId;
         private bool isPlaying = false;
 
@@ -134,12 +136,19 @@ namespace RoosterTeethInfinity
                 }
                 PlayerME.Play();
                 myButton.Content = "Pause";
+                
             }
             else
             {
                 PlayerME.Pause();
                 myButton.Content = "Play";
             }
+        }
+
+        private void GoFullscreen(object sender, RoutedEventArgs e)
+        {
+            PlayerME.IsFullWindow = true;
+            this.PlayVideo();
         }
     }
 }
