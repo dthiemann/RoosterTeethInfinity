@@ -551,25 +551,25 @@
         <member name="P:Google.Apis.YouTube.v3.Data.ChannelLocalization.ETag">
             <summary>The ETag of the item.</summary>
         </member>
-        <member name="T:Google.Apis.YouTube.v3.Data.ChannelSection">
-            <summary>TODO(lxz) follow up with adiamondstein@ to fullfill the doc before deploying</summary>
-        </member>
         <member name="P:Google.Apis.YouTube.v3.Data.ChannelSection.ContentDetails">
-            <summary>The contentDetails object contains details about the ChannelSection content, such as playlists and
-            channels.</summary>
+            <summary>The contentDetails object contains details about the channel section content, such as a list of
+            playlists or channels featured in the section.</summary>
         </member>
         <member name="P:Google.Apis.YouTube.v3.Data.ChannelSection.ETag">
             <summary>Etag of this resource.</summary>
         </member>
         <member name="P:Google.Apis.YouTube.v3.Data.ChannelSection.Id">
-            <summary>The ID that YouTube uses to uniquely identify the ChannelSection.</summary>
+            <summary>The ID that YouTube uses to uniquely identify the channel section.</summary>
         </member>
         <member name="P:Google.Apis.YouTube.v3.Data.ChannelSection.Kind">
             <summary>Identifies what kind of resource this is. Value: the fixed string
             "youtube#channelSection".</summary>
         </member>
+        <member name="P:Google.Apis.YouTube.v3.Data.ChannelSection.Localizations">
+            <summary>Localizations for different languages</summary>
+        </member>
         <member name="P:Google.Apis.YouTube.v3.Data.ChannelSection.Snippet">
-            <summary>The snippet object contains basic details about the ChannelSection, such as its type, style and
+            <summary>The snippet object contains basic details about the channel section, such as its type, style and
             title.</summary>
         </member>
         <member name="T:Google.Apis.YouTube.v3.Data.ChannelSectionContentDetails">
@@ -601,24 +601,39 @@
         <member name="P:Google.Apis.YouTube.v3.Data.ChannelSectionListResponse.VisitorId">
             <summary>The visitorId identifies the visitor.</summary>
         </member>
+        <member name="T:Google.Apis.YouTube.v3.Data.ChannelSectionLocalization">
+            <summary>ChannelSection localization setting</summary>
+        </member>
+        <member name="P:Google.Apis.YouTube.v3.Data.ChannelSectionLocalization.Title">
+            <summary>The localized strings for channel section's title.</summary>
+        </member>
+        <member name="P:Google.Apis.YouTube.v3.Data.ChannelSectionLocalization.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
         <member name="T:Google.Apis.YouTube.v3.Data.ChannelSectionSnippet">
-            <summary>Basic details about a channelsection, including title, style and position.</summary>
+            <summary>Basic details about a channel section, including title, style and position.</summary>
         </member>
         <member name="P:Google.Apis.YouTube.v3.Data.ChannelSectionSnippet.ChannelId">
-            <summary>The ID that YouTube uses to uniquely identify the channel that published the
-            channelSection.</summary>
+            <summary>The ID that YouTube uses to uniquely identify the channel that published the channel
+            section.</summary>
+        </member>
+        <member name="P:Google.Apis.YouTube.v3.Data.ChannelSectionSnippet.DefaultLanguage">
+            <summary>The language of the channel section's default title and description.</summary>
+        </member>
+        <member name="P:Google.Apis.YouTube.v3.Data.ChannelSectionSnippet.Localized">
+            <summary>Localized title, read-only.</summary>
         </member>
         <member name="P:Google.Apis.YouTube.v3.Data.ChannelSectionSnippet.Position">
-            <summary>The position of the channelSection in the channel.</summary>
+            <summary>The position of the channel section in the channel.</summary>
         </member>
         <member name="P:Google.Apis.YouTube.v3.Data.ChannelSectionSnippet.Style">
-            <summary>The style of the channelSection.</summary>
+            <summary>The style of the channel section.</summary>
         </member>
         <member name="P:Google.Apis.YouTube.v3.Data.ChannelSectionSnippet.Title">
-            <summary>The channelSection's title for multiple_playlists and multiple_channels.</summary>
+            <summary>The channel section's title for multiple_playlists and multiple_channels.</summary>
         </member>
         <member name="P:Google.Apis.YouTube.v3.Data.ChannelSectionSnippet.Type">
-            <summary>The type of the channelSection.</summary>
+            <summary>The type of the channel section.</summary>
         </member>
         <member name="P:Google.Apis.YouTube.v3.Data.ChannelSectionSnippet.ETag">
             <summary>The ETag of the item.</summary>
@@ -1600,6 +1615,9 @@
         <member name="P:Google.Apis.YouTube.v3.Data.Playlist.Kind">
             <summary>Identifies what kind of resource this is. Value: the fixed string "youtube#playlist".</summary>
         </member>
+        <member name="P:Google.Apis.YouTube.v3.Data.Playlist.Localizations">
+            <summary>Localizations for different languages</summary>
+        </member>
         <member name="P:Google.Apis.YouTube.v3.Data.Playlist.Player">
             <summary>The player object contains information that you would use to play the playlist in an embedded
             player.</summary>
@@ -1773,6 +1791,18 @@
         <member name="P:Google.Apis.YouTube.v3.Data.PlaylistListResponse.VisitorId">
             <summary>The visitorId identifies the visitor.</summary>
         </member>
+        <member name="T:Google.Apis.YouTube.v3.Data.PlaylistLocalization">
+            <summary>Playlist localization setting</summary>
+        </member>
+        <member name="P:Google.Apis.YouTube.v3.Data.PlaylistLocalization.Description">
+            <summary>The localized strings for playlist's description.</summary>
+        </member>
+        <member name="P:Google.Apis.YouTube.v3.Data.PlaylistLocalization.Title">
+            <summary>The localized strings for playlist's title.</summary>
+        </member>
+        <member name="P:Google.Apis.YouTube.v3.Data.PlaylistLocalization.ETag">
+            <summary>The ETag of the item.</summary>
+        </member>
         <member name="P:Google.Apis.YouTube.v3.Data.PlaylistPlayer.EmbedHtml">
             <summary>An  tag that embeds a player that will play the playlist.</summary>
         </member>
@@ -1788,8 +1818,14 @@
         <member name="P:Google.Apis.YouTube.v3.Data.PlaylistSnippet.ChannelTitle">
             <summary>The channel title of the channel that the video belongs to.</summary>
         </member>
+        <member name="P:Google.Apis.YouTube.v3.Data.PlaylistSnippet.DefaultLanguage">
+            <summary>The language of the playlist's default title and description.</summary>
+        </member>
         <member name="P:Google.Apis.YouTube.v3.Data.PlaylistSnippet.Description">
             <summary>The playlist's description.</summary>
+        </member>
+        <member name="P:Google.Apis.YouTube.v3.Data.PlaylistSnippet.Localized">
+            <summary>Localized title and description, read-only.</summary>
         </member>
         <member name="P:Google.Apis.YouTube.v3.Data.PlaylistSnippet.PublishedAtRaw">
             <summary>The date and time that the playlist was created. The value is specified in ISO 8601 (YYYY-MM-
@@ -2944,6 +2980,9 @@
             <summary>Available OAuth 2.0 scopes for use with the YouTube Data API.</summary>
         </member>
         <member name="F:Google.Apis.YouTube.v3.YouTubeService.Scope.Youtube">
+            <summary>Manage your YouTube account</summary>
+        </member>
+        <member name="F:Google.Apis.YouTube.v3.YouTubeService.Scope.YoutubeForceSsl">
             <summary>Manage your YouTube account</summary>
         </member>
         <member name="F:Google.Apis.YouTube.v3.YouTubeService.Scope.YoutubeReadonly">
@@ -5259,6 +5298,13 @@
         <member name="P:Google.Apis.YouTube.v3.SearchResource.ListRequest.VideoDuration">
             <summary>The videoDuration parameter filters video search results based on their duration.</summary>
         </member>
+        <member name="P:Google.Apis.YouTube.v3.SearchResource.ListRequest.RelevanceLanguage">
+            <summary>The relevanceLanguage parameter instructs the API to return search results that are most
+            relevant to the specified language. The parameter value is typically an ISO 639-1 two-letter language
+            code. However, you should use the values zh-Hans for simplified Chinese and zh-Hant for traditional
+            Chinese. Please note that results in other languages will still be returned if they are highly relevant
+            to the search query term.</summary>
+        </member>
         <member name="P:Google.Apis.YouTube.v3.SearchResource.ListRequest.ForMine">
             <summary>The forMine parameter restricts the search to only retrieve videos owned by the authenticated
             user. If you set this parameter to true, then the type parameter's value must also be set to
@@ -5827,11 +5873,11 @@
              write operation will set as well as the properties that the API response will include.
             
              The part names that you can include in the parameter value are snippet, contentDetails, fileDetails,
-             liveStreamingDetails, player, processingDetails, recordingDetails, statistics, status, suggestions, and
-             topicDetails. However, not all of those parts contain properties that can be set when setting or updating a video's
-             metadata. For example, the statistics object encapsulates statistics that YouTube calculates for a video and does
-             not contain values that you can set or modify. If the parameter value specifies a part that does not contain mutable
-             values, that part will still be included in the API response.</param>
+             liveStreamingDetails, localizations, player, processingDetails, recordingDetails, statistics, status, suggestions,
+             and topicDetails. However, not all of those parts contain properties that can be set when setting or updating a
+             video's metadata. For example, the statistics object encapsulates statistics that YouTube calculates for a video and
+             does not contain values that you can set or modify. If the parameter value specifies a part that does not contain
+             mutable values, that part will still be included in the API response.</param>
         </member>
         <member name="M:Google.Apis.YouTube.v3.VideosResource.Insert(Google.Apis.YouTube.v3.Data.Video,System.String,System.IO.Stream,System.String)">
              <summary>Uploads a video to YouTube and optionally sets the video's metadata.</summary>/// <param name="body">The body of the request.</param>
@@ -5839,11 +5885,11 @@
              write operation will set as well as the properties that the API response will include.
             
              The part names that you can include in the parameter value are snippet, contentDetails, fileDetails,
-             liveStreamingDetails, player, processingDetails, recordingDetails, statistics, status, suggestions, and
-             topicDetails. However, not all of those parts contain properties that can be set when setting or updating a video's
-             metadata. For example, the statistics object encapsulates statistics that YouTube calculates for a video and does
-             not contain values that you can set or modify. If the parameter value specifies a part that does not contain mutable
-             values, that part will still be included in the API response.</param>
+             liveStreamingDetails, localizations, player, processingDetails, recordingDetails, statistics, status, suggestions,
+             and topicDetails. However, not all of those parts contain properties that can be set when setting or updating a
+             video's metadata. For example, the statistics object encapsulates statistics that YouTube calculates for a video and
+             does not contain values that you can set or modify. If the parameter value specifies a part that does not contain
+             mutable values, that part will still be included in the API response.</param>
              <param name="stream">The stream to upload.</param>
              <param name="contentType">The content type of the stream to upload.</param>
         </member>
@@ -5851,8 +5897,8 @@
              <summary>Returns a list of videos that match the API request parameters.</summary>
              <param name="part">The part parameter specifies a comma-separated list of one or more video resource properties that
              the API response will include. The part names that you can include in the parameter value are id, snippet,
-             contentDetails, fileDetails, liveStreamingDetails, player, processingDetails, recordingDetails, statistics, status,
-             suggestions, and topicDetails.
+             contentDetails, fileDetails, liveStreamingDetails, localizations, player, processingDetails, recordingDetails,
+             statistics, status, suggestions, and topicDetails.
             
              If the parameter identifies a property that contains child properties, the child properties will be included in the
              response. For example, in a video resource, the snippet property contains the channelId, title, description, tags,
@@ -5872,8 +5918,8 @@
              write operation will set as well as the properties that the API response will include.
             
              The part names that you can include in the parameter value are snippet, contentDetails, fileDetails,
-             liveStreamingDetails, player, processingDetails, recordingDetails, statistics, status, suggestions, and
-             topicDetails.
+             liveStreamingDetails, localizations, player, processingDetails, recordingDetails, statistics, status, suggestions,
+             and topicDetails.
             
              Note that this method will override the existing values for all of the mutable properties that are contained in any
              parts that the parameter value specifies. For example, a video's privacy setting is contained in the status part. As
@@ -5969,11 +6015,11 @@
              write operation will set as well as the properties that the API response will include.
             
              The part names that you can include in the parameter value are snippet, contentDetails, fileDetails,
-             liveStreamingDetails, player, processingDetails, recordingDetails, statistics, status, suggestions, and
-             topicDetails. However, not all of those parts contain properties that can be set when setting or
-             updating a video's metadata. For example, the statistics object encapsulates statistics that YouTube
-             calculates for a video and does not contain values that you can set or modify. If the parameter value
-             specifies a part that does not contain mutable values, that part will still be included in the API
+             liveStreamingDetails, localizations, player, processingDetails, recordingDetails, statistics, status,
+             suggestions, and topicDetails. However, not all of those parts contain properties that can be set when
+             setting or updating a video's metadata. For example, the statistics object encapsulates statistics that
+             YouTube calculates for a video and does not contain values that you can set or modify. If the parameter
+             value specifies a part that does not contain mutable values, that part will still be included in the API
              response.</summary>
         </member>
         <member name="P:Google.Apis.YouTube.v3.VideosResource.InsertRequest.OnBehalfOfContentOwner">
@@ -6066,11 +6112,11 @@
              write operation will set as well as the properties that the API response will include.
             
              The part names that you can include in the parameter value are snippet, contentDetails, fileDetails,
-             liveStreamingDetails, player, processingDetails, recordingDetails, statistics, status, suggestions, and
-             topicDetails. However, not all of those parts contain properties that can be set when setting or
-             updating a video's metadata. For example, the statistics object encapsulates statistics that YouTube
-             calculates for a video and does not contain values that you can set or modify. If the parameter value
-             specifies a part that does not contain mutable values, that part will still be included in the API
+             liveStreamingDetails, localizations, player, processingDetails, recordingDetails, statistics, status,
+             suggestions, and topicDetails. However, not all of those parts contain properties that can be set when
+             setting or updating a video's metadata. For example, the statistics object encapsulates statistics that
+             YouTube calculates for a video and does not contain values that you can set or modify. If the parameter
+             value specifies a part that does not contain mutable values, that part will still be included in the API
              response.</summary>
         </member>
         <member name="P:Google.Apis.YouTube.v3.VideosResource.InsertMediaUpload.OnBehalfOfContentOwner">
@@ -6131,8 +6177,8 @@
         <member name="P:Google.Apis.YouTube.v3.VideosResource.ListRequest.Part">
              <summary>The part parameter specifies a comma-separated list of one or more video resource properties
              that the API response will include. The part names that you can include in the parameter value are id,
-             snippet, contentDetails, fileDetails, liveStreamingDetails, player, processingDetails, recordingDetails,
-             statistics, status, suggestions, and topicDetails.
+             snippet, contentDetails, fileDetails, liveStreamingDetails, localizations, player, processingDetails,
+             recordingDetails, statistics, status, suggestions, and topicDetails.
             
              If the parameter identifies a property that contains child properties, the child properties will be
              included in the response. For example, in a video resource, the snippet property contains the channelId,
@@ -6183,6 +6229,13 @@
             
              Note: This parameter is supported for use in conjunction with the myRating parameter, but it is not
              supported for use in conjunction with the id parameter.</summary>
+        </member>
+        <member name="P:Google.Apis.YouTube.v3.VideosResource.ListRequest.Hl">
+            <summary>The hl parameter instructs the API to return a localized version of the video details. If
+            localized text is nor available for the requested language, the localizations object in the API response
+            will contain the requested information in the default language instead. The parameter value is a BCP-47
+            language code. Your application can determine whether the requested localization was returned by
+            checking the value of the snippet.localized.language property in the API response.</summary>
         </member>
         <member name="P:Google.Apis.YouTube.v3.VideosResource.ListRequest.MyRating">
             <summary>Set this parameter's value to like or dislike to instruct the API to only return videos liked
@@ -6283,8 +6336,8 @@
              write operation will set as well as the properties that the API response will include.
             
              The part names that you can include in the parameter value are snippet, contentDetails, fileDetails,
-             liveStreamingDetails, player, processingDetails, recordingDetails, statistics, status, suggestions, and
-             topicDetails.
+             liveStreamingDetails, localizations, player, processingDetails, recordingDetails, statistics, status,
+             suggestions, and topicDetails.
             
              Note that this method will override the existing values for all of the mutable properties that are
              contained in any parts that the parameter value specifies. For example, a video's privacy setting is

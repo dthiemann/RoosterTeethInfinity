@@ -7,6 +7,9 @@
     <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.apis.1.9.1\lib\wpa81\google.apis.dll" HashGuid="8b8489da-8458-24e3-d33a-9b81d2ad5708" />
     <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.apis.1.9.1\lib\wpa81\google.apis.platformservices.dll" HashGuid="6efeeb32-8029-b7b1-37f4-106d01cec5d8" />
     <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.apis.youtube.v3.1.9.0.1260\lib\portable-net40+sl50+win+wpa81+wp80\google.apis.youtube.v3.dll" HashGuid="a85cc370-e1de-458e-3e96-0a733b5ea1ed" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.gdata.client.2.2.0.0\lib\google.gdata.client.dll" HashGuid="cf40f9b3-07b3-b8b5-5cb5-9396b0a8fee8" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.gdata.extensions.2.2.0.0\lib\google.gdata.extensions.dll" HashGuid="679ea2d7-08c8-cca5-f928-33e6988845ac" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.gdata.youtube.2.2.0.0\lib\google.gdata.youtube.dll" HashGuid="b23622ba-b3d1-1b13-c31b-6146d9e6d4d5" />
     <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\microsoft.bcl.async.1.0.168\lib\wpa81\microsoft.threading.tasks.dll" HashGuid="3a1beea5-1547-d5c6-af32-3b5c761c2a6a" />
     <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\microsoft.bcl.async.1.0.168\lib\wpa81\microsoft.threading.tasks.extensions.dll" HashGuid="79a01987-c06c-c9d7-37eb-629809787680" />
     <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\mytoolkit.2.3.28.0\lib\portable-net45+wp8+win8+wpa81\mytoolkit.dll" HashGuid="8ee557e4-b9f7-1b27-5059-eca0db6069bb" />

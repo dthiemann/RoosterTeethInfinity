@@ -25,6 +25,8 @@ using Google.Apis.Util.Store;
 using Google.Apis.YouTube.v3;
 using Google.Apis.YouTube.v3.Data;
 
+using Google.GData.YouTube;
+
 //using MyToolkit;
 //using MyToolkit.Multimedia;
 using Windows.UI.Popups;
@@ -39,6 +41,9 @@ namespace RoosterTeethInfinity
     /// A page that displays an overview of a single group, including a preview of the items
     /// within the group.
     /// </summary>
+    /// 
+    
+
     public sealed partial class SectionPage : Page
     {
         private NavigationHelper navigationHelper;
@@ -116,8 +121,8 @@ namespace RoosterTeethInfinity
         {
             // Navigate to the appropriate destination page, configuring the new page
             // by passing required information as a navigation parameter
-            var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
-            this.Frame.Navigate(typeof(ItemPage), itemId);
+            var video = (YouTubeVideo) e.ClickedItem;
+            this.Frame.Navigate(typeof(ItemPage), video.Id);
         }
 
         #region NavigationHelper registration

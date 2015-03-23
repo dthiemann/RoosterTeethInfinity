@@ -141,25 +141,7 @@ namespace RoosterTeethInfinity
             //var itemId = ((SampleDataItem)e.ClickedItem).UniqueId;
 
             YouTubeVideo theVideo = (YouTubeVideo) e.ClickedItem;
-            Debug.WriteLine(theVideo.Description);
-            string group = (string)LetsPlayHubSection.Header;
 
-            var objectToSend = new YouTubeNavHelper();
-
-            switch (group) {
-                case "Rooster Teeth":
-                    objectToSend = rt_url;
-                    break;
-                case "Let's Play":
-                    objectToSend = lp_url;
-                    break;
-                case "The Know":
-                    objectToSend = tk_url;
-                    break;
-                case "Community Hunter":
-                    objectToSend = ch_url;
-                    break;
-            }
             this.Frame.Navigate(typeof(ItemPage), theVideo.Id);
         }
 
