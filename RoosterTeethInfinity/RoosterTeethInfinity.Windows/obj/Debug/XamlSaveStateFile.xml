@@ -1,22 +1,21 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\dylan_000\documents\visual studio 2013\projects\roosterteethinfinity\roosterteethinfinity\roosterteethinfinity.windows\obj\debug\intermediatexaml\roosterteethinfinity.windows.exe" HashGuid="24eb56b2-2af0-6398-2f3c-e656a4aaa5bf" />
-    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.apis.auth.1.9.1\lib\netcore45\google.apis.auth.dll" HashGuid="6944b74c-9063-fff0-5654-f14cbb1ae8ed" />
-    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.apis.auth.1.9.1\lib\netcore45\google.apis.auth.platformservices.dll" HashGuid="687bb6f2-079b-1d4c-2285-18f08d9ce8c8" />
-    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.apis.core.1.9.1\lib\portable-net40+sl50+win+wpa81+wp80\google.apis.core.dll" HashGuid="55d6e654-674f-a43c-52cc-885f574eab22" />
-    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.apis.1.9.1\lib\netcore45\google.apis.dll" HashGuid="8b8489da-8458-24e3-d33a-9b81d2ad5708" />
-    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.apis.1.9.1\lib\netcore45\google.apis.platformservices.dll" HashGuid="489a7e88-e723-0902-5f3b-c3019b67bcb2" />
-    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.apis.youtube.v3.1.9.0.1300\lib\portable-net40+sl50+win+wpa81+wp80\google.apis.youtube.v3.dll" HashGuid="ce0ad29a-ed3c-2898-5844-253364574b8e" />
-    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.gdata.client.2.2.0.0\lib\google.gdata.client.dll" HashGuid="cf40f9b3-07b3-b8b5-5cb5-9396b0a8fee8" />
-    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.gdata.extensions.2.2.0.0\lib\google.gdata.extensions.dll" HashGuid="679ea2d7-08c8-cca5-f928-33e6988845ac" />
-    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\google.gdata.youtube.2.2.0.0\lib\google.gdata.youtube.dll" HashGuid="b23622ba-b3d1-1b13-c31b-6146d9e6d4d5" />
-    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\microsoft.bcl.async.1.0.168\lib\win8\microsoft.threading.tasks.dll" HashGuid="3a1beea5-1547-d5c6-af32-3b5c761c2a6a" />
-    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\microsoft.bcl.async.1.0.168\lib\win8\microsoft.threading.tasks.extensions.dll" HashGuid="79a01987-c06c-c9d7-37eb-629809787680" />
-    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\mytoolkit.2.3.28.0\lib\portable-net45+wp8+win8+wpa81\mytoolkit.dll" HashGuid="8ee557e4-b9f7-1b27-5059-eca0db6069bb" />
-    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\mytoolkit.extended.2.3.28.0\lib\portable-wpa81+win8\mytoolkit.extended.dll" HashGuid="1e5738ba-0c39-043a-e735-18cf68dc19e8" />
-    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\newtonsoft.json.6.0.6\lib\netcore45\newtonsoft.json.dll" HashGuid="63116148-54c9-33e9-c28b-753c429e654f" />
-    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\microsoft.net.http.2.2.28\lib\win8\system.net.http.extensions.dll" HashGuid="b50282f8-b9f8-4408-8d49-ba2efe301624" />
-    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\microsoft.net.http.2.2.28\lib\win8\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
-    <ReferenceAssembly PathName="c:\users\dylan\documents\roosterteethinfinity\packages\zlib.portable.1.10.0\lib\portable-net4+sl5+wp8+win8+wpa81+monotouch+monoandroid\zlib.portable.dll" HashGuid="c2e720fb-e50f-2f36-7080-d54c89253f2a" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\projects\roosterteethinfinity\packages\google.apis.auth.1.9.1\lib\netcore45\google.apis.auth.dll" HashGuid="6944b74c-9063-fff0-5654-f14cbb1ae8ed" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\projects\roosterteethinfinity\packages\google.apis.auth.1.9.1\lib\netcore45\google.apis.auth.platformservices.dll" HashGuid="687bb6f2-079b-1d4c-2285-18f08d9ce8c8" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\projects\roosterteethinfinity\packages\google.apis.core.1.9.1\lib\portable-net40+sl50+win+wpa81+wp80\google.apis.core.dll" HashGuid="55d6e654-674f-a43c-52cc-885f574eab22" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\projects\roosterteethinfinity\packages\google.apis.1.9.1\lib\netcore45\google.apis.dll" HashGuid="8b8489da-8458-24e3-d33a-9b81d2ad5708" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\projects\roosterteethinfinity\packages\google.apis.1.9.1\lib\netcore45\google.apis.platformservices.dll" HashGuid="489a7e88-e723-0902-5f3b-c3019b67bcb2" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\projects\roosterteethinfinity\packages\google.apis.youtube.v3.1.9.0.1390\lib\portable-net40+sl50+win+wpa81+wp80\google.apis.youtube.v3.dll" HashGuid="b2ac57fb-248b-e39e-3933-9a4a5fe18e89" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\projects\roosterteethinfinity\packages\google.gdata.client.2.2.0.0\lib\google.gdata.client.dll" HashGuid="cf40f9b3-07b3-b8b5-5cb5-9396b0a8fee8" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\projects\roosterteethinfinity\packages\google.gdata.extensions.2.2.0.0\lib\google.gdata.extensions.dll" HashGuid="679ea2d7-08c8-cca5-f928-33e6988845ac" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\projects\roosterteethinfinity\packages\google.gdata.youtube.2.2.0.0\lib\google.gdata.youtube.dll" HashGuid="b23622ba-b3d1-1b13-c31b-6146d9e6d4d5" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\projects\roosterteethinfinity\packages\microsoft.bcl.async.1.0.168\lib\win8\microsoft.threading.tasks.dll" HashGuid="3a1beea5-1547-d5c6-af32-3b5c761c2a6a" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\projects\roosterteethinfinity\packages\microsoft.bcl.async.1.0.168\lib\win8\microsoft.threading.tasks.extensions.dll" HashGuid="79a01987-c06c-c9d7-37eb-629809787680" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\projects\roosterteethinfinity\packages\mytoolkit.2.3.30.0\lib\portable-net45+wp8+win8+wpa81\mytoolkit.dll" HashGuid="1ddc48ec-7dec-f13b-8f0f-9bf24d62f040" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\projects\roosterteethinfinity\packages\mytoolkit.extended.2.3.30.0\lib\portable-wpa81+win8\mytoolkit.extended.dll" HashGuid="1baaace2-d3e1-ae81-b166-42e7ae8b2b89" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\projects\roosterteethinfinity\packages\newtonsoft.json.6.0.8\lib\netcore45\newtonsoft.json.dll" HashGuid="fd3dfcab-cf69-c796-78a2-2423dadb814b" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\projects\roosterteethinfinity\packages\microsoft.net.http.2.2.29\lib\win8\system.net.http.extensions.dll" HashGuid="b50282f8-b9f8-4408-8d49-ba2efe301624" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\projects\roosterteethinfinity\packages\microsoft.net.http.2.2.29\lib\win8\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+    <ReferenceAssembly PathName="c:\users\dylan\documents\projects\roosterteethinfinity\packages\zlib.portable.1.10.0\lib\portable-net4+sl5+wp8+win8+wpa81+monotouch+monoandroid\zlib.portable.dll" HashGuid="c2e720fb-e50f-2f36-7080-d54c89253f2a" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

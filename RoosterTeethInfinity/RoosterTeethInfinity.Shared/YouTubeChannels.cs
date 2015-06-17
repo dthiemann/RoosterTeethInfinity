@@ -32,7 +32,7 @@ namespace RoosterTeethInfinity
         /* Test for loading YouTube data with a different API */
         public static int GetYoutubeChannel()
         {
-            
+            return 0;
         }
 
         /* Loads up the given YouTube Channel */

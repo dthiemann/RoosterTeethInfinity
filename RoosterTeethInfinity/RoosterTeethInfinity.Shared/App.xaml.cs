@@ -16,7 +16,6 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 using RoosterTeethInfinity.Common;
-using Windows.UI.ApplicationSettings;
 
 // The Universal Hub Application project template is documented at http://go.microsoft.com/fwlink/?LinkID=391955
 
@@ -41,19 +40,7 @@ namespace RoosterTeethInfinity
             this.Suspending += this.OnSuspending;
         }
 
-        protected override void OnWindowCreated(WindowCreatedEventArgs args) {
-            SettingsPane.GetForCurrentView().CommandsRequested += OnCommandsRequested;
-        }
 
-        private void OnCommandsRequested(SettingsPane sender, SettingsPaneCommandsRequestedEventArgs args) {
-
-            args.Request.ApplicationCommands.Add(new SettingsCommand(
-                "Custom Setting", "Custom Setting", (handler) => ShowCustomSettingFlyout()));
-        }
-        public void ShowCustomSettingFlyout() {
-            SettingsFlyout1 CustomSettingFlyout = new SettingsFlyout1();
-            CustomSettingFlyout.Show();
-        }
 
         /// <summary>
         /// Invoked when the application is launched normally by the end user.  Other entry points
